@@ -1,0 +1,8 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "The Recipe";
+/* Bundle name */
+"CFBundleName" = "TheRecipe";
+/* Privacy - Microphone Usage Description */
+"NSMicrophoneUsageDescription" = "We use it to help you cook your recipies hands free. We do not record you or send any information outside your phone. Apple policies still apply.";
+/* Privacy - Speech Recognition Usage Description */
+"NSSpeechRecognitionUsageDescription" = "We use it to help you cook your recipies hands free. We do not record you or send any information outside your phone. Apple policies still apply.";

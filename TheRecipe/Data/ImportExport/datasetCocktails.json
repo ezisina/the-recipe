@@ -1,0 +1,3691 @@
+{"version":"cocktails",
+"cocktails" : [
+  {
+    "id" : "3E0D7373-E92F-4336-AB38-586F96BA70D7",
+    "name" : "Negroni",
+    "caption" : "A Negroni",
+    "isFlaming" : false,
+    "url" : "Negroni",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir into glass over ice, garnish and serve.",
+    "primaryAlcohol" : [
+      "vermouth",
+      "gin",
+      "campari"
+    ],
+    "isIBA" : true,
+    "image" : "Negroni served in Vancouver BC.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 3 cl gin ",
+      " 3 cl sweet red vermouth ",
+      " 3 cl Campari"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or Orange slice"
+  },
+  {
+    "id" : "59B15991-A398-49E3-AD38-3033A7FEFAA0",
+    "name" : "Porto Flip",
+    "isFlaming" : false,
+    "url" : "Porto_flip",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake ingredients together in a cocktail shaker or mixer with ice.  Strain into glass, garnish and serve",
+    "primaryAlcohol" : [
+      "port", "brandy"
+    ],
+    "isIBA" : true,
+    "image" : "Porto Flip.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "1.5 cl (3 parts) brandy ",
+      "4.5 cl (9 parts) port wine or port ",
+      "1 cl (2 parts) egg yolk"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Grated nutmeg"
+  },
+  {
+    "id" : "E98D874A-D86C-4024-AC35-9C98EBE27AA2",
+    "isFlaming" : false,
+    "url" : "Cooperstown_Cocktail_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "unspecified",
+    "preparationInstructions" : "Shake with ice and strain into chilled cocktail glass, add mint.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 1 oz. Gin ",
+      " .5 oz. Dry vermouth ",
+      " .5 oz. Sweet vermouth ",
+      " Mint sprig"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Cooperstown Cocktail"
+  },
+  {
+    "id" : "736B50D3-6F63-4E84-9B4C-F82A0FD7DBE6",
+    "isFlaming" : false,
+    "url" : "French_Connection_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      "3.5cl Cognac (drink) or Cognac ",
+      "3.5cl Amaretto liqueur"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "French Connection"
+  },
+  {
+    "id" : "90A3CBD8-D8A1-42D8-BC0C-CC54715E0CE9",
+    "name" : "John Collins",
+    "isFlaming" : false,
+    "url" : "John_Collins_(cocktail)",
+    "drinkWare" : "unspecified",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "IBA Cocktail John Collins (29221732881).jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) gin ",
+      " 3 cl (2 parts) freshly squeezed lemon juice ",
+      " 1.5 cl (1 part) sugar syrup ",
+      " 6 cl (4 parts) carbonated water"
+    ],
+    "preparationInstructions" : "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice and maraschino cherry"
+  },
+  {
+    "id" : "AA339C5A-CE3C-4C3A-92D7-C8DBC6323524",
+    "name" : "Michelada",
+    "caption" : "Michelada in a salt-rimmed glass",
+    "isFlaming" : false,
+    "url" : "Michelada",
+    "drinkWare" : "pint",
+    "type" : "unspecified",
+    "preparationInstructions" : "Unspecified",
+    "primaryAlcohol" : [
+      "beer"
+    ],
+    "isIBA" : false,
+    "image" : "Michelada 2.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime"
+  },
+  {
+    "id" : "9796FF9F-5865-4505-9C08-C343187D7409",
+    "isFlaming" : false,
+    "url" : "Between_the_Sheets_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "rum",
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "Between_The_Sheets_Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl white rum ",
+      " 3 cl cognac ",
+      " 3 cl triple sec ",
+      " 2 cl fresh lemon juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Between the Sheets"
+  },
+  {
+    "id" : "54CF58DF-2771-4AC9-8197-EFAF94B0C6A5",
+    "name" : "Horse's Neck",
+    "footNotes" : "IBA classifies this drink as a long drink.",
+    "isFlaming" : false,
+    "url" : "Horse%27s_Neck",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter.",
+    "primaryAlcohol" : [
+      "brandy"
+    ],
+    "isIBA" : true,
+    "image" : "Horse's_Neck_cocktail.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4 cL (1 part) Brandy ",
+      " 12 cL (3 parts) Ginger ale ",
+      " Dash of Angostura bitter (optional)"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Long spiral of lemon zest (ingredient) or zest"
+  },
+  {
+    "id" : "81E29C06-BFA9-442D-9E7A-78536A93E3DA",
+    "isFlaming" : false,
+    "url" : "Angel_Face_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin", "brandy", "calvados"
+    ],
+    "isIBA" : true,
+    "image" : "IBA Cocktail Angel Face (28068833805).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl gin ",
+      " 3 cl Apricot brandy ",
+      " 3 cl Calvados"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Angel Face"
+  },
+  {
+    "id" : "1091AEC2-E63B-48A4-96CC-E8D97A2A0727",
+    "name" : "Tuxedo",
+    "isFlaming" : false,
+    "url" : "Tuxedo_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin", "absinthe"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 3 cl gin (Old Tom) ",
+      " 3 cl dry Vermouth ",
+      " 1\/2 barspoon Maraschino ",
+      " 1\/4 barspoon Absinthe ",
+      " 3 dashes Bitters or orange bitters"
+    ],
+    "servingType" : "straight",
+    "preparationInstructions" : "Stir all ingredients with ice and strain into a cocktail glass.  Garnish with a cherry and a twist of lemon zest.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "cherry, lemon zest"
+  },
+  {
+    "id" : "0CBBEFDE-5B2D-4298-81A0-589AEE378F86",
+    "isFlaming" : false,
+    "url" : "Queens_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients in an ice-filled shaker or cocktail shaker. Strain into chilled martini or Cocktail glass or cocktail glass.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 6 parts Gin ",
+      " 3 parts Sweet Red Vermouth ",
+      " 3 parts Dry Vermouth ",
+      " 4 parts Pineapple juice"
+    ],
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Queens"
+  },
+  {
+    "id" : "F85FC308-8CB5-4021-88F6-6A6FD5BD814E",
+    "caption" : "An Irish Car Bomb with [[Baileys Irish Cream]].",
+    "isFlaming" : false,
+    "url" : "Irish_Car_Bomb",
+    "drinkWare" : "pubshot",
+    "type" : "unspecified",
+    "preparationInstructions" : "The whiskey is floated on top of the Irish cream in a shot glass, and the shot glass is then dropped into the stout",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "Guinness or Guinness stout, Baileys Irish Cream, and Jameson Irish Whiskey"
+    ],
+    "image" : "Irish_Car_Bomb.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Irish Car Bomb"
+  },
+  {
+    "id" : "CC628C86-F02E-4D8F-A11E-8D09588FD7CF",
+    "name" : "Hanky Panky",
+    "isFlaming" : false,
+    "url" : "Hanky-Panky_cocktail",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "vermouth",
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Hanky Panky cocktail.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      " 45 ml London Dry Gin ",
+      " 45 ml Sweet Red Vermouth ",
+      " 7.5 ml Fernet Branca"
+    ],
+    "preparationInstructions" : "Stirred over ice, strained into a chilled glass, garnished, and served up.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange zest"
+  },
+  {
+    "id" : "C7CD500B-5900-44EA-B639-8A77F4B11EC1",
+    "name" : "Bee's Knees",
+    "isFlaming" : false,
+    "url" : "Bee%27s_Knees_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir honey syrup with lemon and orange juices until it dissolves, add gin and shake with ice. Strain into chilled cocktail glass",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Bee's Knees (cocktail).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 52.5ml Dry gin ",
+      " 22.5ml lemon juice ",
+      " 22.5ml orange juice ",
+      " 2 teaspoons honey syrup"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Optionally garnish with lemon or orange zest"
+  },
+  {
+    "id" : "C1F6D873-DDF4-4042-B768-BC76481C2133",
+    "isFlaming" : false,
+    "url" : "Bijou_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Stir in mixing glass with ice and strain",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Bijou Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 1 part gin ",
+      "1 part green Chartreuse (liqueur) or Chartreuse ",
+      "1 part sweet vermouth ",
+      "Dash orange bitters"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Bijou Cocktail"
+  },
+  {
+    "id" : "373A269C-1A5C-4A25-B05D-5252F0F14A16",
+    "name" : "Cloister",
+    "isFlaming" : false,
+    "url" : "Cloister_(cocktail)",
+    "drinkWare" : "unspecified",
+    "type" : "unspecified",
+    "preparationInstructions" : "Combine ingredients with ice in cocktail shaker; shake well, then strain into cocktail glass, pouring over ice.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1.5 oz gin (6 parts) ",
+      "2 tsp grapefruit juice (2 parts) ",
+      "1 tsp lemon juice (1 part) ",
+      "1 tsp yellow chartreuse (1 part)"
+    ],
+    "servingType" : "unspecified",
+    "notes" : "0.5 tsp of simple sugar solution or superfine sugar can added for a sweeter cocktail. The Cloister is normally made using dry gin. The cocktail can be served off the rocks, with no ice in the glass. This recipe, more suited to a larger cocktail glass, calls for: *1.5 oz gin (6 parts) *0.5 oz grapefruit juice (2.5 parts) *0.25 oz lemon juice (1 part) *0.5 oz yellow chartreuse (1 part)",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Grapefruit twist or lemon twist"
+  },
+  {
+    "id" : "3E605E4E-CFE8-4BA2-A041-FC1B1FAD4522",
+    "caption" : "A Clover Club Cocktail made with Gin, Lemon Juice, and Grenadine.",
+    "isFlaming" : false,
+    "url" : "Clover_Club_Cocktail",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Dry shake ingredients to emulsify, add ice, shake and served straight up.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 4.5cl Gin ",
+      " 1.5cl lemon juice ",
+      " 1.5cl Raspberry or raspberry syrup ",
+      " 0.5cl Dry Vermouth  ",
+      " 1 egg white or 20 ml aquafaba or 4 drops cocktail foamer"
+    ],
+    "image" : "Cloverclub.jpg",
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Clover Club Cocktail"
+  },
+  {
+    "id" : "FE364303-3C0B-4B26-B690-E246102007E6",
+    "name" : "Gimlet",
+    "caption" : "A variant of the cocktail, the vodka gimlet, replaces gin with vodka.",
+    "isFlaming" : false,
+    "url" : "Gimlet_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix and serve. Garnish with a slice of lime",
+    "primaryAlcohol" : [
+      "gin",
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Gimlet cocktail.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      " Two to four parts gin ",
+      " One part sweetened Lime (fruit) or lime juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime"
+  },
+  {
+    "id" : "7ADBB70A-3AC8-4AE6-8933-BC03B0A72F05",
+    "name" : "Bumbu",
+    "isFlaming" : false,
+    "url" : "Bumbo",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Unspecified",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "File:Bumbo Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "2 ounces rum ",
+      "1 ounce water ",
+      "2 sugar or sugar cubes ",
+      "Sprinkle 1⁄4 teaspoon to taste cinnamon",
+      "Sprinkle 1⁄4 teaspoon to taste nutmeg"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Nutmeg"
+  },
+  {
+    "id" : "FBD7FDDA-2EFE-4F9A-8CD8-415C27B6A104",
+    "name" : "Breakfast martini",
+    "isFlaming" : false,
+    "url" : "Breakfast_martini",
+    "drinkWare" : "cocktail",
+    "source" : "Simon Difford",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "2 shots (50 ml) gin",
+      "3\/4 shot (18.75 ml) Cointreau or triple sec",
+      "3\/4 shot fresh lemon juice",
+      "1 spoon orange marmalade"
+    ],
+    "servingType" : "straight",
+    "preparationInstructions" : "Mix or shake in cocktail shaker filled with ice cubes. Strain into glass and serve.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon twist"
+  },
+  {
+    "id" : "A53BBD3D-A5A9-4D78-A9A6-5E35F780AF2A",
+    "isFlaming" : false,
+    "url" : "Monkey_Gland",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Shake well over ice cubes in a cocktail shaker or shaker, strain into a chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin", "absinthe"
+    ],
+    "isIBA" : true,
+    "image" : "Monkey Gland (11677703163).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 45 ml gin ",
+      " 45 ml orange juice ",
+      " 1 tablespoon absinthe ",
+      " 1 tablespoon grenadine"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Monkey Gland"
+  },
+  {
+    "id" : "01A3DEAE-3A4C-41EE-B3FF-DF0C8755CBFD",
+    "name" : "Brandy Alexander",
+    "isFlaming" : false,
+    "url" : "Brandy_Alexander",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg.",
+    "primaryAlcohol" : [
+      "brandy"
+    ],
+    "isIBA" : false,
+    "image" : "Brandy_alexander.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "3 cl (1 part) Cognac (drink) or Cognac ",
+      "3 cl (1 part) Crème de cacao (brown)  ",
+      "3 cl (1 part) cream"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Grated nutmeg"
+  },
+  {
+    "id" : "6FFBC873-E203-4549-B3F3-9381AE7A3D0F",
+    "name" : "Gibson",
+    "isFlaming" : false,
+    "url" : "Gibson_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir well in a cocktail shaker or shaker with ice, then strain into a chilled martini glass. Garnish and serve",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Gibson cocktail.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "6 cl (2 ounces) (6 parts) gin ",
+      "1 cl (0.33 ounce) (1 part) dry vermouth"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Pickled onion or silverskin onion"
+  },
+  {
+    "id" : "18FDB36E-9AA9-4D54-80A6-4C4D20C517BE",
+    "name" : "Derby",
+    "isFlaming" : false,
+    "url" : "Derby_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "IBA Cocktail Derby (28968231993).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 6 cl gin ",
+      " 2 dashes Bitters or peach bitters ",
+      " 2 fresh Mentha or mint leaves"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Mentha or mint leaves"
+  },
+  {
+    "id" : "AC57BA38-66AC-4F74-8568-A5FE09FE8EF3",
+    "isFlaming" : false,
+    "url" : "Snakebite_(drink)",
+    "drinkWare" : "pint",
+    "preparationInstructions" : "Mix in a standard pint glass equal parts lager and cider",
+    "type" : "unspecified",
+    "primaryAlcohol" : [
+"beer",
+    ],
+    "isIBA" : false,
+    "image" : "Snakebite alcoholic beverage.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "One part lager",
+      "one part cider"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Snakebite"
+  },
+  {
+    "id" : "E0B87B7A-0BC0-4DBA-8EA8-799DD77FF760",
+    "isFlaming" : false,
+    "url" : "French_75_(cocktail)",
+    "drinkWare" : "flute",
+    "source" : "iba",
+    "type" : "wine",
+    "primaryAlcohol" : [
+      "champagne", "gin"
+    ],
+    "isIBA" : true,
+    "image" : "French 75.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "3 cl gin ",
+      "2 dashes simple syrup ",
+      "1.5 cl lemon or lemon juice ",
+      "6 cl Champagne"
+    ],
+    "preparationInstructions" : "Combine gin, syrup, and lemon juice in a cocktail shaker filled with ice.  Shake vigorously and strain into a chilled champagne glass.  Top up with Champagne. Stir gently.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "French 75"
+  },
+  {
+    "id" : "2EB61A2E-F376-4FF5-854A-D301B53C1FD3",
+    "name" : "Bramble",
+    "isFlaming" : false,
+    "url" : "Bramble_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "unspecified",
+    "preparationInstructions" : "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Bramble Cocktail1.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "5 cl gin ",
+      "2.5 cl lemon or lemon juice ",
+      "1.25 cl simple syrup ",
+      "1.5 cl Creme de Mure (blackberry liqueur)"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Blackberry, lemon slice"
+  },
+  {
+    "id" : "DA99366E-C37B-465F-A6B4-54CE69407B65",
+    "isFlaming" : false,
+    "url" : "Paradise_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Shake together over ice.  Strain into cocktail glass and serve chilled.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Paradise cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "3.5 cl (7 parts) gin ",
+      "2 cl (4 parts) apricot brandy ",
+      "1.5 cl (3 parts) orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Paradise"
+  },
+  {
+    "id" : "992AFED9-8A52-43D1-A1A3-6D64E03AC014",
+    "name" : "Sazerac",
+    "caption" : "A Sazerac at the Sazerac Bar, [[The Roosevelt New Orleans Hotel]]",
+    "isFlaming" : false,
+    "url" : "Sazerac",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "SazeracRooseveltNOLA1July2009.JPG",
+    "servingType" : "straight",
+    "ingredients" : [
+      "5 cl cognac ",
+      " 1 cl absinthe ",
+      "One sugar cube ",
+      "Two dashes Peychaud's Bitters"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon peel"
+  },
+  {
+    "id" : "07CF4350-7E46-46ED-A8BF-20AC3D0F1B23",
+    "name" : "Chicago Cocktail",
+    "isFlaming" : false,
+    "url" : "Chicago_Cocktail",
+    "drinkWare" : "old",
+    "source" : "cocktaildb",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "brandy"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+        "2 oz brandy (6 cl, 1/2 gills)",
+        "1 dash aromatic bitters",
+        "1/4 oz orange curacao (6 dashes, 1/16 gills)",
+      
+    ],
+    "servingType" : "rocks",
+    "preparationInstructions" : "Shake or stir with ice.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice"
+  },
+  {
+    "id" : "EA7E6397-E1DB-4546-9E1C-3364471EAB5D",
+    "name" : "Salty dog",
+    "isFlaming" : false,
+    "url" : "Salty_dog_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake gin and grapefruit juice in cocktail shaker. Strain into a salt-rimmed highball glass.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Salty Dog.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4 cl gin or vodka ",
+      "10 cl grapefruit juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Salted glass"
+  },
+  {
+    "id" : "F450B294-AA46-44FA-B403-B322528099FF",
+    "caption" : "A layered Black Velvet cocktail with the stout on the top",
+    "isFlaming" : false,
+    "url" : "Black_Velvet_(beer_cocktail)",
+    "drinkWare" : "pilsnerglass",
+    "type" : "mixed",
+    "preparationInstructions" : "Mix equal parts stout and Champagne or cider without ice.",
+    "primaryAlcohol" : [
+
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "Stout","Champagne"
+    ],
+    "image" : "Black Velvet Cocktail Layered.jpg",
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Black Velvet"
+  },
+  {
+    "id" : "0D972298-9324-4EFA-B1CB-E716557B9BCC",
+    "isFlaming" : false,
+    "url" : "Mickey_Slim",
+    "drinkWare" : "unspecified",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir the DDT into the gin and serve",
+    "notes" : "DDT is not very soluble in gin so only a small quantity will dissolve.  DDT has been known to numerous health problems in humans.",
+    "isIBA" : false,
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "One part gin ",
+      "A pinch of DDT"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Mickey Slim"
+  },
+  {
+    "id" : "A5B3DF69-9E19-4484-A7DA-0E599FB35C92",
+    "caption" : "Two greyhound cocktails",
+    "isFlaming" : false,
+    "url" : "Greyhound_(cocktail)",
+    "drinkWare" : "unspecified",
+    "type" : "mixed",
+    "preparationInstructions" : "Mix vodka and juice, pour over ice in Old Fashioned glass",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "5 cl (1 parts) vodka ",
+      " 20 cl (4 parts) Grapefruit juice"
+    ],
+    "image" : "File:Greyhound Cocktail.jpg",
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Greyhound"
+  },
+  {
+    "id" : "C665E994-D2E7-4953-8401-9626448A176C",
+    "name" : "Vesper",
+    "caption" : "Vesper",
+    "isFlaming" : false,
+    "url" : "Vesper_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake and strain into a chilled cocktail glass. Add the garnish.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Gordon's Vesper.jpeg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4.5 cl gin ",
+      " 1.5 cl vodka ",
+      " 0.75 cl Lillet or Lillet Blanc"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon twist"
+  },
+  {
+    "id" : "869B0431-B4FB-411F-8E9F-FAF74EF083B3",
+    "name" : "Alexander",
+    "isFlaming" : false,
+    "url" : "Alexander_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "Alexander Cocktail.png",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl cognac ",
+      " 3 cl brown crème de cacao ",
+      " 3 cl light cream"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Nutmeg"
+  },
+  {
+    "id" : "42998927-0B75-4486-8A2B-E00070E47753",
+    "isFlaming" : false,
+    "url" : "20th_Century_(cocktail)",
+    "drinkWare" : "unspecified",
+    "type" : "unspecified",
+    "preparationInstructions" : "Shake in an iced cocktail shaker, and strain into a cocktail glass. Garnish with a lemon twist.",
+    "primaryAlcohol" : [
+"gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 4.5 cl Gin ",
+      " 2 cl Lillet or Kina Lillet ",
+      " 1.5 cl light creme de cacao ",
+      " 2cl fresh lemon juice"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "20th Century"
+  },
+  {
+    "id" : "A1145965-5A96-402F-845D-893D925372AB",
+    "isFlaming" : false,
+    "url" : "Sidecar_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "Sidecar-cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 5 cl cognac ",
+      " 2 cl triple sec ",
+      " 2 cl lemon or lemon juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Sidecar"
+  },
+  {
+    "id" : "9F3A9A1A-19A8-4FAC-8739-599FD8498A58",
+    "name" : "Blackthorn",
+    "isFlaming" : false,
+    "url" : "Blackthorn_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "unspecified",
+    "preparationInstructions" : "Fill mixing glass with gin, vermouth, and bitters. Add ice and stir until chilled, then add strain into a chilled glass. Garnish with a lemon peel.",
+    "primaryAlcohol" : [
+"gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "2 oz sloe gin or 2 oz Irish whiskey ",
+      "1 oz sweet vermouth ",
+      "dash Angostura bitters"
+    ],
+    "servingType" : "chilled",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon slice"
+  },
+  {
+    "id" : "D723B3AC-DF42-4C93-B217-7A41B5458293",
+    "name" : "Old Etonian",
+    "isFlaming" : false,
+    "url" : "Old_Etonian_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake with ice and strain into a stemmed cocktail glass.",
+    "primaryAlcohol" : [
+"gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1.5 oz. gin ",
+      "1.5 oz. Lillet or Kina Lillet or Cocchi Americano ",
+      "2 dashes Orange bitters ",
+      "2 dashes Creme de Noyaux or Crème de Noyaux"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or orange peel"
+  },
+  {
+    "id" : "14B120B9-A5F9-424C-8E58-06F9FB014E79",
+    "isFlaming" : false,
+    "url" : "White_Lady_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "White Lady - Beefeater gin, Cointreau, fresh lemon juice (12403540403).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4 cl gin ",
+      "3 cl  Triple Sec ",
+      "2 cl lemon juice"
+    ],
+    "notes" : "This cocktail is a variant of the Sidecar",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "White Lady"
+  },
+  {
+    "id" : "BC7FAC24-73D9-442D-B0D8-3AFED73CE90B",
+    "caption" : "Death in the Afternoon",
+    "isFlaming" : false,
+    "url" : "Death_in_the_Afternoon_(cocktail)",
+    "drinkWare" : "flute",
+    "source" : "drinkboy",
+    "preparationInstructions" : "Pour one jigger absinthe into a Champagne glass. Add iced Champagne until it attains the proper opalescent milkiness. Drink three to five of these slowly. by Hemingway",
+    "primaryAlcohol" : [
+      "absinthe",
+      "champagne"
+    ],
+    "isIBA" : false,
+    "type" : "wine",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Death in the Afternoon"
+  },
+  {
+    "id" : "9128A533-9D30-4FB1-9155-2DBFEF01B3FC",
+    "name" : "Pisco Sour",
+    "caption" : "Peruvian pisco sour",
+    "isFlaming" : false,
+    "url" : "Pisco_sour",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Vigorously shake contents in a cocktail shaker with ice cubes, then strain into a glass and garnish with bitters.",
+    "primaryAlcohol" : [
+      "pisco"
+    ],
+    "isIBA" : true,
+    "image" : "Pisco sour 20100613b.JPG",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 60ml Pisco ",
+      " 30ml lemon juice ",
+      " 20ml simple syrup ",
+      " 1 egg white ",
+      " Several drops of aromatic bitters at the end"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Angostura bitters (1 dash)"
+  },
+  {
+    "id" : "66B2B076-1364-4F4E-9144-5F2BFE1D2EEE",
+    "name" : "Bacardi Cocktail",
+    "isFlaming" : false,
+    "url" : "Bacardi_cocktail",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake together with ice.  Strain into glass and serve",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "Bacardi cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4.5 cl white rum ",
+      "2 cl Lime juice or lime juice ",
+      "1 cl grenadine syrup"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime"
+  },
+  {
+    "id" : "FB092FBD-FF50-4A96-AA7B-BFC6E93BC139",
+    "name" : "Jack Rose",
+    "isFlaming" : false,
+    "url" : "Jack_Rose_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Traditionally shaken into a chilled glass, garnished, and served straight up.",
+    "primaryAlcohol" : [
+      "brandy"
+    ],
+    "isIBA" : false,
+    "image" : "File:15-09-26-RalfR-WLC-0259.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "2 parts applejack ",
+      "1 part lemon or lime juice ",
+      "1\/2 part grenadine"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "cherry, apple slice"
+  },
+  {
+    "id" : "0C8D3422-8BD3-4025-9372-D273F9C0CF76",
+    "name" : "Caipirinha",
+    "caption" : "Studio photo of a caipirinha",
+    "isFlaming" : false,
+    "url" : "Caipirinha",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with ice and add the Cachaça.",
+    "primaryAlcohol" : [
+"cachaça"
+    ],
+    "isIBA" : true,
+    "image" : "15-09-26-RalfR-WLC-0048.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 60 ml cachaça ",
+      " 1 Lime cut into small wedges ",
+      " 4 teaspoons sugar"
+    ],
+    "notes" : "A wide variety of fresh fruits can be used in place of lime. In the absence of cachaça, vodka can be used, making a Caipiroska.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "sugarcane, lime(ingredient)"
+  },
+  {
+    "id" : "8EDB7DB2-7297-453B-A4C4-D4AEF4168441",
+    "isFlaming" : false,
+    "url" : "Brass_Monkey_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "unspecified",
+    "preparationInstructions" : "Stir together and serve over ice.",
+    "primaryAlcohol" : [
+"rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "One part dark rum ",
+      "One part vodka ",
+      "One part orange juice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Brass Monkey"
+  },
+  {
+    "id" : "48605A2C-2049-4264-B370-798C99D7C61D",
+    "name" : "Casino",
+    "caption" : "Casino",
+    "isFlaming" : false,
+    "url" : "Casino_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Casino Cocktail (9120690108).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 4 cl gin (Old Tom) ",
+      " 1 cl Maraschino ",
+      " 1 cl fresh lemon juice ",
+      " 2 dashes orange bitters"
+    ],
+    "preparationInstructions" : "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon twist and maraschino cherry"
+  },
+  {
+    "id" : "33FA2292-21AF-4668-B1BB-FB3BA6CAA70B",
+    "name" : "Dry Martini",
+    "caption" : "The martini is one of the most widely known cocktails",
+    "isFlaming" : false,
+    "url" : "Martini_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "15-09-26-RalfR-WLC-0084.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      " 6 cl gin ",
+      " 1 cl dry vermouth"
+    ],
+    "preparationInstructions" : "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Olive or lemon twist"
+  },
+  {
+    "id" : "501CD922-3096-4E8C-9178-731E18E8C22F",
+    "caption" : "Stinger cocktail served over ice in a rocks glass",
+    "isFlaming" : false,
+    "url" : "Stinger_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour in a mixing glass with ice, stir and strain into a cocktail glass.  May also be served on rocks in a rocks glass.",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      "5 cL cognac ",
+      "2 cL white crème de menthe"
+    ],
+    "image" : "Stinger_Cocktail.jpg",
+    "servingType" : "straight",
+    "notes" : "It has been suggested that during the 1920s the Stinger ceased being an after-dinner cocktail, and instead should be consumed before dinner.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Stinger"
+  },
+  {
+    "id" : "AEA4D848-4AA9-4179-B536-25A0C640438F",
+    "name" : "Gin and tonic",
+    "caption" : "Gin and tonic with lime wedge",
+    "isFlaming" : false,
+    "url" : "Gin_and_tonic",
+    "drinkWare" : "highballglassorrocksglass",
+    "type" : "unspecified",
+    "preparationInstructions" : "In a glass filled with ice cubes, add gin and tonic.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Gin and Tonic with ingredients.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "Gin", "tonic water, according to taste"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "A slice of Lime (fruit) or lime"
+  },
+  {
+    "id" : "DAAA7989-568B-49E5-A189-06B6952961A8",
+    "name" : "Bronx",
+    "isFlaming" : false,
+    "url" : "Bronx_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour into cocktail shaker all ingredients with ice cubes, shake well. Strain in chilled Cocktail glass or cocktail or martini glass.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Bronx (cocktail).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl (6 parts) Gin ",
+      " 1.5 cl (3 parts) Sweet Red Vermouth ",
+      " 1 cl (2 parts) Dry Vermouth ",
+      " 1.5 cl (3 parts) Orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "orange twist"
+  },
+  {
+    "id" : "8B11F829-57A3-4618-9B22-464372111BB4",
+    "name" : "Damn the Weather",
+    "isFlaming" : false,
+    "url" : "Damn_the_Weather_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake with ice and strain into a chilled large cocktail glass",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Damn the weather cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 1 measure gin ",
+      " 1\/2 measure sweet vermouth ",
+      " 1\/2 measure orange juice ",
+      " 1\/4 measure orange curacao or triple sec"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Slice of orange"
+  },
+  {
+    "id" : "B36E5320-1DA5-4B36-804E-B35BBE5405C4",
+    "caption" : "",
+    "isFlaming" : false,
+    "url" : "Black_and_Tan",
+    "drinkWare" : "pintglass",
+    "type" : "mixed",
+    "preparationInstructions" : "Unspecified",
+    "primaryAlcohol" : [
+
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "Pale ale or Lager", "Stout or Porter"
+    ],
+    "image" : "Image:Blackandtanbeer.jpg",
+    "servingType" : "neat",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Black and Tan"
+  },
+  {
+    "id" : "2A0E3831-CD91-4811-A494-90D203DCEC26",
+    "name" : "Tom Collins",
+    "isFlaming" : false,
+    "url" : "Tom_Collins",
+    "drinkWare" : "unspecified",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix the gin, lemon juice and sugar syrup in a tall glass with ice, top up with soda water, garnish and serve.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "image" : "Tom Collins in Copenhagen.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "4.5 cL (3 parts) Old Tom Gin ",
+      "3 cL (2 parts) freshly squeezed lemon juice ",
+      "1.5 cL (1 part) simple syrup or sugar syrup ",
+      "6 cL (4 parts) carbonated water to taste"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice and maraschino cherry"
+  },
+
+  {
+    "id" : "2AA081CB-BA07-4F3A-A808-48B5EE9A888A",
+    "isFlaming" : false,
+    "url" : "Caipiroska",
+    "drinkWare" : "unspecified",
+    "type" : "unspecified",
+    "preparationInstructions" : "Squeeze juice from lime wedges into a highball glass. Place one of the lime wedges into the glass and add sugars.  Muddle sugar with the lime wedges. Be careful not to overdo the muddling of the lime rind as it may make the drink too bitter. Pour in vodka and stir well until the sugar is dissolved. Add crushed ice and stir to melt some of the ice. Garnish with lime slice or wedge and serve.",
+    "primaryAlcohol" : [
+"vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 6 cl Vodka ",
+      " 1\/2 Lime (fruit) or Lime, cut into wedges ",
+      " 1 teaspoon brown sugar ",
+      " 1 teaspoon raw or turbinado sugar ",
+      " Crushed ice"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Caipiroska"
+  },
+  {
+    "id" : "C886195F-C541-42B4-8453-C9C324CBC901",
+    "name" : "Piña Colada",
+    "isFlaming" : false,
+    "url" : "Pi%C3%B1a_colada",
+    "drinkWare" : "poco",
+    "type" : "cocktail",
+    "preparationInstructions" : "Blend all the ingredients with ice in an electric blender, pour into a large goblet or Hurricane glass and serve.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : true,
+    "image" : "Piña Colada.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      " 1 part White Rum ",
+      " 1 part Coconut Cream ",
+      " 3 parts Fresh Pineapple Juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Pineapple slice and\/or maraschino cherry"
+  },
+  {
+    "id" : "1F141098-8FB4-4430-9EE7-34E5ED4EC10A",
+    "caption" : "Classic Daiquiri served in a cocktail glass",
+    "isFlaming" : false,
+    "url" : "Daiquiri",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "In a cocktail shaker add all ingredients. Stir well to dissolve the sugar. Add ice and shake. Strain into chilled cocktail glass.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 6 cl white rum ",
+      " 2 cl lime juice ",
+      " 2 bar spoons superfine sugar"
+    ],
+    "image" : "Classic_Daiquiri_in_Cocktail_Glass.jpg",
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Daiquiri"
+  },
+  {
+    "id" : "329273B5-9CB0-45DA-8B23-7A207FEDC011",
+    "name" : "Blue Lagoon",
+    "caption" : "",
+    "isFlaming" : false,
+    "url" : "Blue_Lagoon_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "unspecified",
+    "preparationInstructions" : "pour vodka and blue curacao in a shaker with ice, shake well & strain into ice filled highball glass, top with lemonade, or lemon juice, garnish and serve.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Blue Lagoon at the Mandarin Oriental, Washington DC.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "50 ml Vodka ",
+      "20 ml Curaçao  ",
+      "100 ml Lemonade ",
+      "1 orange slice. ",
+      "Ice cubes"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon slice or Garnish the brim with an orange slice"
+  },
+  {
+    "id" : "0E00FDDC-C781-4085-9B58-81A99F3A9B91",
+    "caption" : "A Black Russian cocktail",
+    "isFlaming" : false,
+    "url" : "Black_Russian",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 5 cl Vodka ",
+      " 2 cl Coffee liqueur"
+    ],
+    "image" : "Black_Russian.jpg",
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Black Russian"
+  },
+  {
+    "id" : "D07BE888-0841-4D2A-A046-4DCF6946EE0F",
+    "name" : "Suffering Bastard",
+    "isFlaming" : false,
+    "url" : "Suffering_Bastard",
+    "drinkWare" : "collins",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake everything but ginger beer with ice, pour unstrained into glass, top with ginger beer.",
+    "primaryAlcohol" : [
+"gin", "brandy"
+    ],
+    "isIBA" : true,
+    "image" : "Suffering Bastard Cocktail.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 30 ml gin ",
+      " 30 ml brandy ",
+      " 15 ml lime juice ",
+      " 2 dashes Angostura bitters ",
+      " ginger beer to top up"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Mint sprig & optional orange slice"
+  },
+  {
+    "id" : "9C269A0E-42F8-45D9-8D29-FCCB5154F1DE",
+    "caption" : "Hot buttered rum in a mug",
+    "isFlaming" : false,
+    "url" : "Hot_buttered_rum",
+    "drinkWare" : "cup",
+    "type" : "mixed",
+    "preparationInstructions" : "In a mug, dissolve the sugar cubes in a little hot water. Add rum and butter. Fill the mug with hot water. Sprinkle nutmeg on top.",
+    "primaryAlcohol" : [
+"rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+        "2 oz. dark rum",
+        "1 tbs unsalted butter",
+       "hot water or cider", "sweetener and spices"
+    ],
+    "image" : "Hot buttered rum - close-up.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Hot buttered rum"
+  },
+  {
+    "id" : "6758CDC3-D9B6-447C-A43E-632DA93F7403",
+    "name" : "Paloma",
+    "isFlaming" : false,
+    "url" : "Paloma_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour tequila into highball glass. Squeeze lime juice. Add ice and salt, then top with soda and stir gently.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : true,
+    "image" : "TequilaPaloma.JPG",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 50ml 100% agave tequila ",
+      " 5ml fresh lime juice ",
+      " pinch of salt ",
+      " 100ml pink grapefruit soda"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lime slice"
+  },
+  {
+    "id" : "3A79D09E-64AA-4156-99F1-850A93DDE5E0",
+    "name" : "Long Island Iced Tea",
+    "caption" : "The Long Island iced tea was named for its visual resemblance to non-alcoholic iced tea.",
+    "isFlaming" : false,
+    "url" : "Long_Island_iced_tea",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Add all ingredients into highball glass filled with ice. Stir gently. Optionally garnish with lemon slice. ",
+    "primaryAlcohol" : [
+      "gin",
+      "vodka",
+      "tequila",
+      "rum"
+    ],
+    "isIBA" : true,
+    "image" : "Long Island Iced Teas.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 1.5 cl  Tequila  ",
+      " 1.5 cl  Vodka ",
+      " 1.5 cl  Light rum or White rum ",
+      " 1.5 cl  Triple sec ",
+      " 1.5 cl  Gin ",
+      " 2.5 cl  Lemon juice ",
+      " 3.0 cl  simple syrup ",
+      "Top with Cola"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon slice"
+  },
+  {
+    "id" : "E41654A9-5E09-422C-B2C6-E2DA130CB080",
+    "isFlaming" : false,
+    "url" : "Sake_bomb",
+    "drinkWare" : "pintshot",
+    "preparationInstructions" : "The shot of sake is dropped into the beer, causing it to fizz violently.  The drink should then be consumed immediately.",
+    "type" : "beer",
+    "primaryAlcohol" : [
+      "beer"
+    ],
+    "isIBA" : false,
+    "image" : "Sake bomb - man pounds table with fist.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 1 pint (~16 parts) beer ",
+      " 1 shot (1.5 parts) sake"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Sake bomb"
+  },
+  {
+    "id" : "5B196AC7-467C-4661-A879-C6685F9FB489",
+    "isFlaming" : false,
+    "url" : "Gunfire_(drink)",
+    "drinkWare" : "unspecified",
+    "source" : "http:\/\/www.cocktail.uk.com\/Cocktail-Recipe\/Gunfire.htm",
+    "type" : "unspecified",
+    "primaryAlcohol" : [
+"rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1 cup of black tea",
+      "1 shot of rum"
+    ],
+    "servingType" : "unspecified",
+    "preparationInstructions" : "Pour the tea into a cup. Pour the rum in and stir.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Gunfire"
+  },
+  {
+    "id" : "0EAC70D5-EAF0-4166-AE69-552D2C4A603A",
+    "name" : "Tommy's margarita",
+    "caption" : "Tommy's margarita as it is served at Tommy's",
+    "isFlaming" : false,
+    "url" : "Tommy%27s_margarita",
+    "drinkWare" : "cocktail",
+    "type" : "mixed",
+    "preparationInstructions" : "Shake and strain into a chilled cocktail glass.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : true,
+    "image" : "TommysMargarita.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      " 6.0 cl Tequila ",
+      " 3.0 cl Freshly squeezed lime juice ",
+      " 3.0 Agave syrup"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime slice"
+  },
+  {
+    "id" : "71460955-9E67-4B3A-9C36-BF4A6D072289",
+    "name" : "Cojito",
+    "isFlaming" : false,
+    "url" : "Cojito",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "In a shaker add white rum, Malibu, lime juice, some mint leaves and crushed ice, garnish with the sprig of mint.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "15ml of white rum ",
+      "5ml Malibu rum ",
+      "5ml lime juice ",
+      "Apple mint or Mint leaves ",
+      "1 sprig of Apple mint or mint"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Trimmed coconut and Apple mint or mint leaf"
+  },
+  {
+    "id" : "1FDFAE3A-29FB-4BCC-B98D-3E36E595BB18",
+    "isFlaming" : false,
+    "url" : "Tequila_Slammer",
+    "drinkWare" : "unspecified",
+    "type" : "unspecified",
+    "preparationInstructions" : "Mix carefully to avoid releasing the dissolved carbon dioxide.",
+    "notes" : "Variation — If champagne is used instead of soda pop, the drink is known as a Slammer Royale",
+    "isIBA" : false,
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "servingType" : "straight",
+    "ingredients" : [
+      "One part tequila ",
+      "One part 7 Up, ginger ale, Sprite (soft drink) or Sprite, or Mountain Dew"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Tequila Slam\/Coscorron"
+  },
+  {
+    "id" : "FB21B364-21CB-4A31-8912-8022B95107A8",
+    "name" : "Caesar",
+    "caption" : "Caesar made with 2 shots of vodka, a pinch of horseradish, a little spicy with 5 dashes of tabasco, made muddy with about 10 dashes of Worcestershire, all over ice, and filled to the top of a celery salt and spice rimmed glass with Clamato juice.",
+    "isFlaming" : false,
+    "url" : "Caesar_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Rim glass with celery salt, and a lime wedge.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Bloody Caesar.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "6 oz. Clamato Juice ",
+      "1–1½ oz. vodka ",
+      "2 dashes hot sauce ",
+      "4 dashes Worcestershire sauce ",
+      "Celery salt ",
+      "Freshly ground pepper ",
+      "Lime wedge ",
+      "1 crisp celery stalk"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "stalk of celery and wedge of lime (fruit) or lime"
+  },
+  {
+    "id" : "D582F426-4A19-4072-9A0F-A07B58C78434",
+    "name" : "Margarita",
+    "isFlaming" : false,
+    "url" : "Margarita",
+    "drinkWare" : "margarita",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into shaker with ice. Shake well and strain into cocktail glass rimmed with salt.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : true,
+    "image" : "MargaritaReal.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "5 cL (10 parts) tequila ",
+      "2 cL (4 parts) triple sec ",
+      "1.5 cL (3 parts) Lime (fruit) or lime juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Salt on the rim (optional)"
+  },
+  {
+    "id" : "1AFBED81-F3C2-4EE2-99C1-0DDE3AA536E6",
+    "caption" : "A hurricane served in the typical glass at [[Pat O'Brien's Bar|Pat O'Brien's]], New Orleans",
+    "isFlaming" : false,
+    "url" : "Hurricane_(cocktail)",
+    "drinkWare" : "poco",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake ingredients with ice, then pour into the glass and serve over ice.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "One part dark rum ",
+      "One part white rum ",
+      "Half part over proofed rum ",
+      "Passion fruit syrup ",
+      "Lemon (fruit) or Lemon juice"
+    ],
+    "image" : "File:Made it to Pat O'Brien's for lunch and a hurricane.jpg",
+    "servingType" : "rocks",
+    "notes" : "Some versions add orange juice, pineapple juice, and grenadine.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Hurricane"
+  },
+  {
+    "id" : "FDEDCF00-3666-4AAE-934C-A44023F59A2A",
+    "isFlaming" : false,
+    "url" : "Brass_Monkey_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir together and serve over ice.",
+    "primaryAlcohol" : [
+"rum", "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "One part dark rum ",
+      "One part vodka ",
+      "One part orange juice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Brass Monkey"
+  },
+  {
+    "id" : "088B84D8-AFD0-468C-9329-0D6DE90E5746",
+    "name" : "Appletini (aka Apple Martini)",
+    "caption" : "Top view of an Apple Martini",
+    "isFlaming" : false,
+    "url" : "Appletini",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix in a cocktail shaker or shaker, then pour into a chilled glass.  Garnish and serve.",
+    "primaryAlcohol" : [
+      "vodka", "calvados"
+    ],
+    "isIBA" : false,
+    "image" : "Appletini.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4.5 cl (3 parts) Vodka ",
+      "1.5 cl (1 part) Apple schnapps \/ Calvados  ",
+      "1.5 cl (1 part) Cointreau"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Apple slice; Cherry"
+  },
+  {
+    "id" : "7C8A5AF8-2557-49A7-B3EC-7F8FE31ABE2E",
+    "name" : "Cuban Sunset",
+    "isFlaming" : false,
+    "url" : "Cuban_Sunset",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Fill highball (tall) glass with ice. Mix lime soda, lemonade, guava nectar, and grenadine syrup together to form a mixture. Pour rum into glasses over ice, then evenly layer the guava mixture over the rum. Mix as desired. Garnish with a half-slice of lemon.",
+    "primaryAlcohol" : [
+"rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 4.5 cl (3 parts) rum (preferably white rum) ",
+      " 9 cl (6 parts) carbonated lime (fruit) or lime soda ",
+      " 4 cl (2 parts) lemonade ",
+      " 4 cl (2 parts) guava or guava nectar ",
+      " 2 cl (1.5 parts) grenadine syrup ",
+      " Garnish with lemon slice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice"
+  },
+  {
+    "id" : "11002476-7A39-42C1-AA65-181485101DED",
+    "isFlaming" : true,
+    "url" : "Flaming_Doctor_Pepper",
+    "drinkWare" : "pubshot",
+    "preparationInstructions" : "Layer the two spirits in the shot glass, with the high-proof liquor on top.  Light the shot and allow it to burn; then extinguish it by dropping it into the beer glass. Drink immediately.",
+    "type" : "beer",
+    "primaryAlcohol" : [
+      "beer"
+    ],
+    "isIBA" : false,
+    "image" : "Flaming dr pepper (101492893).jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "1 pint (~13 parts) beer ",
+      "3 parts Amaretto ",
+      "1 part high-proof liquor"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Flaming Doctor Pepper"
+  },
+  {
+    "id" : "A7DD5E31-784F-445D-8650-890807D06CFA",
+    "name" : "Tequila sunrise",
+    "caption" : "A tequila sunrise demonstrating its resemblance to a sunrise, in a stemware rather than the usual collins glass",
+    "isFlaming" : false,
+    "url" : "Tequila_sunrise_(cocktail)",
+    "drinkWare" : "unspecified",
+    "type" : "mixed",
+    "preparationInstructions" : "Pour the tequila and orange juice into glass over ice.  Add the grenadine, which will sink to the bottom.  Stir gently to create the sunrise effect.  Garnish and serve.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : true,
+    "image" : "Tequila Sunrise glass.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) tequila ",
+      " 9 cl (6 parts) orange juice ",
+      " 1.5 cl (1 part) grenadine syrup"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or orange slice and cherry"
+  },
+  {
+    "id" : "B29904CC-A72F-4D9F-B4B9-E0C0505EDCFC",
+    "name" : "Mai Tai",
+    "isFlaming" : false,
+    "url" : "Mai_Tai",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients with ice. Pour unstrained into glass. Garnish and serve with straw.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : true,
+    "image" : "Mai Tai Trader Vics Emeryville.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "3 cl rum or amber Jamaican rum ",
+      "3 cl rum or Martinique molasses rum ",
+      "1.5 cl orange Curaçao ",
+      "1.5 cl orgeat syrup ",
+      "3 cl fresh lime juice ",
+      ".75 cl simple syrup"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "spearmint leaves and Lime (fruit) or lime shell"
+  },
+  {
+    "id" : "5BDAD4B9-055A-45E9-86B0-B7FCF766D2DD",
+    "name" : "Agent Orange",
+    "isFlaming" : false,
+    "url" : "Agent_Orange_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix in an old fashioned glass with ice and serve.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "5 cl (1 part) vodka ",
+      "15 cl (3 parts) carrot juice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "none"
+  },
+  {
+    "id" : "422E8684-F0F2-4114-B19C-550D2E0E6250",
+    "name" : "Vampiro",
+    "caption" : "Vampiro cocktail in a highball glass, garnished with a slice of an Orange and a chili pepper.",
+    "isFlaming" : false,
+    "url" : "Vampiro_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour ingredients into glass rimmed with salt. Stir.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : false,
+    "image" : "Vampiro coctail Orange.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "5 cl tequila ",
+      " 7 cl tomato juice ",
+      " 3 cl fresh orange juice ",
+      " 1 cl fresh lime juice ",
+      " 1 teaspoon clear honey ",
+      " Half slice onion finely chopped ",
+      " Few slices fresh red hot chili pepper ",
+      " Few drops of Worcestershire Sauce ",
+      " Salt"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Salt on the rim. Chili pepper (optional)"
+  },
+  {
+    "id" : "BDAD847A-D665-4D6C-8BDA-9770EA93CDD9",
+    "name" : "Bushwacker",
+    "caption" : "homemade Bushwacker",
+    "isFlaming" : false,
+    "url" : "Bushwacker_(cocktail)",
+    "drinkWare" : "poco",
+    "type" : "cocktail",
+    "preparationInstructions" : "Blend all the ingredients together in a blender, including the ice, and then strain into a hurricane glass. Place cherry on top of the drink as a garnish and serve. Whipped cream can also be added as a garnish to the top of the drink before the cherry.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "Bushwacker2_(cocktail).png",
+    "servingType" : "straight",
+    "ingredients" : [
+      "1 ounce Dark rum",
+      "1 ounce Kahlúa ",
+      "1 ounce Crème de cacao",
+      "2 ounces Cream of coconut or Cream of Coconut ",
+      "2 ounces Milk or Half & Half ",
+      "1 cup ice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Maraschino cherry or Maraschino Cherry"
+  },
+  {
+    "id" : "C5848D66-E288-4F0E-963D-7BDD87A917FC",
+    "name" : "Chimayó Cocktail",
+    "caption" : "Chimayó Cocktail at Rancho de Chimayo, New Mexico",
+    "isFlaming" : false,
+    "url" : "Chimay%C3%B3_Cocktail",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour the tequila and unfiltered apple cider into glass over ice.  Add the lemon juice and creme de cassis and stir.  Garnish and serve.",
+    "primaryAlcohol" : [
+      "tequila"
+    ],
+    "isIBA" : false,
+    "image" : "Chimayo Cocktail at Rancho de Chimayo, Chimayo NM.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 1.5 oz Tequila ",
+      " 1 oz apple cider ",
+      " 0.25 oz lemon juice ",
+      " 0.25 oz creme de cassis"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "slice of unpeeled apple"
+  },
+  {
+    "id" : "70A60C8A-D496-4206-A3C4-C8FB7E25C52B",
+    "name" : "Mojito",
+    "isFlaming" : false,
+    "url" : "Mojito",
+    "drinkWare" : "unspecified",
+    "type" : "cocktail",
+    "preparationInstructions" : "Muddler or Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish with sprig of mint leaves and lemon slice. Serve with straw.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : true,
+    "image" : "Mojito98775.jpeg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4 cl white rum ",
+      " 3 cl fresh lime juice ",
+      " 6 sprigs of Mentha  or  mint ",
+      " 2 teaspoons sugar (or 2 cl of sugar syrup)"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "sprig of mint (Mentha nemorosa or Yerba buena in the original recipe), slice of lime"
+  },
+  {
+    "id" : "096EB713-20A2-4B71-85A5-9CE0F57C8F99",
+    "name" : "Macuá",
+    "caption" : "Frozen Macuá made with [[Flor de Caña]] extra dry brand.",
+    "isFlaming" : false,
+    "url" : "Macu%C3%A1",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Blend the ingredients with 1 cup of ice and serve well chilled. Garnish with an orange slice",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "File:Macua.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "2 parts white rum  ",
+      " 2 parts guava juice ",
+      " 1 part lemon juice ",
+      " sugar to taste"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon slice"
+  },
+  {
+    "id" : "4430D370-CC61-4A43-B1A9-E72BB0637AF5",
+    "name" : "El Presidente",
+    "isFlaming" : false,
+    "url" : "El_Presidente_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir well with ice, then strain into glass.  Garnish and serve.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "El Presidente Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "Two parts rum ",
+      "One part Curaçao liqueur ",
+      "One part blanc vermouth ",
+      "Dash grenadine"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "twist of orange (fruit) or orange peel"
+  },
+  {
+    "id" : "37A01142-9AA4-46DE-B456-5467F6EDE9EF",
+    "isFlaming" : false,
+    "url" : "Yellow_Bird_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into a cocktail shaker, shake well with ice, strain into chilled cocktail glass",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 3 cl white rum ",
+      " 1.5 cl Galliano (liqueur) or Galliano ",
+      " 1.5 cl triple sec ",
+      " 1.5 cl lime juice"
+    ],
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Yellow Bird"
+  },
+  {
+    "id" : "2541669B-840A-4E02-B4A7-6D754C2C2345",
+    "isFlaming" : false,
+    "url" : "Tamagozake",
+    "drinkWare" : "unspecified",
+    "type" : "cocktail",
+    "preparationInstructions" : "Whisk the raw egg yolk and honey\/sugar into 3\/4 cup hot sake (hot enough to lightly cook the egg – 1:30 in the microwave).",
+    "notes" : "An alternative preparation method is to heat the sake\/egg\/honey mixture together, while whisking occasionally. Be careful to stop cooking before it turns into scrambled eggs.",
+    "isIBA" : false,
+    "primaryAlcohol" : [
+"sake"
+    ],
+    "servingType" : "hot",
+    "ingredients" : [
+      "One raw egg (or egg yolk only) ",
+      "3\/4 cup (200 cc) sake ",
+      "Honey or sugar to taste"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Tamagozake"
+  },
+  {
+    "id" : "5B2852F5-B013-45A3-BFB2-78EA298AE854",
+    "name" : "Bloody Mary",
+    "caption" : "A Bloody Mary garnished with celery served with ice cubes in a Highball glass",
+    "isFlaming" : false,
+    "url" : "Bloody_Mary_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "Stirring gently, pour all ingredients into highball glass. Garnish.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : true,
+    "image" : "Bloody Mary Coctail with celery stalk - Evan Swigart.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) vodka ",
+      " 9 cl (6 parts) Tomato juice ",
+      " 1.5 cl (1 part) Lemon juice ",
+      " 2 to 3 dashes of Worcestershire Sauce ",
+      " Tabasco sauce ",
+      " Celery salt ",
+      " Black pepper"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Celery stalk and lemon wedge (optional)"
+  },
+  {
+    "id" : "55E34189-82AE-4D81-8BA7-43CC4A5F0C73",
+    "name" : "Painkiller",
+    "caption" : "A Painkiller and a bottle of Pussers",
+    "isFlaming" : false,
+    "url" : "Painkiller_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake and garnish.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "image" : "File:Pussers Rum Painkiller.JPG",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "2-4 part(s) Pusser's Rum ",
+      "4 parts pineapple juice ",
+      "1 part coconut milk#cream of coconut or cream of coconut ",
+      "1 part orange juice ",
+      "Sprinkle with nutmeg"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Nutmeg"
+  },
+  {
+    "id" : "7E9BAF7D-C00A-46C2-917D-A1EEDA1A9CBC",
+    "isFlaming" : false,
+    "url" : "Rum_Swizzle",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix in pitcher with crushed ice, shake vigorously until a frothing head appears. Strain into cocktail glasses. Garnish with a slice of orange and a cherry. Serves 6.",
+    "primaryAlcohol" : [
+      "rum"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "4oz. black rum ",
+      "4oz. gold rum ",
+      "Juice of 2 lemons ",
+      "5oz. pineapple juice ",
+      "5oz orange juice ",
+      "2oz. Bermuda falernum ",
+      "6 dashes Angostura Bitters"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Bermuda Rum Swizzle"
+  },
+  {
+    "id" : "AE5DE7D7-F089-4587-BF8C-F34D409FC3C6",
+    "isFlaming" : false,
+    "url" : "Red_Russian_(cocktail)",
+    "drinkWare" : "unspecified",
+    "source" : "cocktaildb",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 1 part (1 oz, 3 cl) vodka ",
+      " 1 part (1 oz, 3 cl) Cherry Heering"
+    ],
+    "servingType" : "rocks",
+    "preparationInstructions" : "Pour vodka, then Cherry Heering over ice.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Red Russian"
+  },
+  {
+    "id" : "5C0F2C5F-4664-48CF-A4F0-883C2A408EBF",
+    "caption" : "A mixed White Russian",
+    "isFlaming" : false,
+    "url" : "White_Russian_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour coffee liqueur and vodka into an Old Fashioned glass filled with ice. Float fresh cream on top and stir slowly.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 5 cl (5 parts) Vodka ",
+      " 2 cl (2 parts) List of liqueurs#Coffee liqueurs or Coffee liqueur ",
+      " 3 cl (3 parts) fresh cream"
+    ],
+    "image" : "White-Russian.jpg",
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "White Russian"
+  },
+  {
+    "id" : "93E5EA45-113B-4E9E-9D5F-D67D2498D75A",
+    "name" : "Brooklyn",
+    "caption" : "Brooklyn cocktail",
+    "isFlaming" : false,
+    "url" : "Brooklyn_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stirred over ice, strained into a chilled glass, garnished, and served straight up.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : false,
+    "image" : "Brooklyn_cocktail,_The_Post_Brewing_Co,_Boulder_CO.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "2 oz Rye whiskey or Canadian whisky ",
+      "1 oz dry vermouth ",
+      "1\/4 oz Maraschino liqueur ",
+      "1\/4 oz Sirop de Picon or a few dashes of Angostura bitters  ",
+      "Maraschino cherry for garnish"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "cherry"
+  },
+  {
+    "id" : "9B6A38C3-24DA-4776-901E-E3094B9D8664",
+    "name" : "Boulevardier",
+    "isFlaming" : false,
+    "url" : "Boulevardier_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir with ice, strain, garnish and serve.",
+    "primaryAlcohol" : [
+      "vermouth",
+      "campari"
+    ],
+    "isIBA" : true,
+    "image" : "Society Lounge - Boulevardier - 16164913902.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 45 ml (1.5 parts) bourbon whiskey or bourbon ",
+      " 30 ml (1 part) sweet red vermouth ",
+      " 30 ml (1 part) Campari"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or Orange zest"
+  },
+  {
+    "id" : "811C27F4-BC98-4D58-8F15-C3D6AA414208",
+    "isFlaming" : false,
+    "url" : "Horsefeather_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Fill a highball glass 3/4 with ice. Pour in ingredients and stir.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+        "1.5 fl oz rye whiskey or blended whiskey",
+        "4.0 fl oz ginger beer",
+        "3 dashes Angostura bitters",
+        "squirt of lemon juice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Horsefeather"
+  },
+  {
+    "id" : "06A35C05-AC5A-4778-BCFF-31BEDF98F411",
+    "name" : "Kamikaze",
+    "caption" : "Kamikaze cocktail, served straight up in a cocktail glass",
+    "isFlaming" : false,
+    "url" : "Kamikaze_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients together with ice. Strain into glass, garnish and serve.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Kamikaze-cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "3 cl vodka ",
+      "3 cl triple sec ",
+      "3 cl lime juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime slice"
+  },
+  {
+    "id" : "2E565365-30D7-4402-B90D-A88ABC6F0631",
+    "name" : "Lemon Drop Martini",
+    "caption" : "Lemon drop martinis",
+    "isFlaming" : false,
+    "url" : "Lemon_drop_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into cocktail shaker, shake well with ice, strain into chilled cocktail glass. Garnish with sugar rim around the glass.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : true,
+    "image" : "Lemon Drop cocktails.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl vodka citron ",
+      " 2 cl triple sec ",
+      " 1.5 cl lemon juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice"
+  },
+  {
+    "id" : "BCDE9937-1332-44D3-A4F7-511A6BD6B63C",
+    "isFlaming" : false,
+    "url" : "Amber_Moon",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Crack an egg into a tall glass, leaving the yolk unbroken. Pour in whiskey or vodka. Add Tabasco to taste, or serve on the side.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+        "3 fl oz whiskey or vodka",
+        "1 raw egg",
+        "Tabasco sauce to taste"
+    ],
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Amber Moon"
+  },
+  {
+    "id" : "4607AB6B-EA71-42B8-A448-35DD48FAB3FF",
+    "caption" : "Traditional Irish coffee",
+    "isFlaming" : false,
+    "url" : "Irish_coffee",
+    "drinkWare" : "cup",
+    "type" : "cocktail",
+    "preparationInstructions" : "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream. Serve hot.",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      "4 cl (2 parts) Irish whiskey ",
+      "8 cl (4 parts) hot coffee ",
+      "3 cl (1-1.5 parts) fresh cream",
+      "1 tsp brown sugar"
+    ],
+    "image" : "Irish coffee glass.jpg",
+    "servingType" : "hot",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Irish Coffee"
+  },
+  {
+    "id" : "7E21CD2C-4BCE-4D2A-B53E-C24BDE40930E",
+    "name" : "Rusty Nail",
+    "isFlaming" : false,
+    "url" : "Rusty_Nail_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients directly into old-fashioned glass filled with ice. Stir gently. Garnish with a lemon twist. Serve.",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : true,
+    "image" : "Rusty Nail a cocktail by @tokenchick13 (16503594826).jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "4.5 cl Scotch Whisky ",
+      "2.5 cl Drambuie"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon twist"
+  },
+  {
+    "id" : "B17FCD43-055E-4D15-849A-D74CF451D2FE",
+    "name" : "Platinum Blonde",
+    "isFlaming" : false,
+    "url" : "Platinum_Blonde_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Combine ingredients with ice in cocktail shaker; shake well, then strain into cocktail glass. Garnish with rosemary sprig.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1 oz vodka  ",
+      "1\/2 oz herbal liqueur (traditionally elderflower cordial) ",
+      "1\/2 oz grapefruit juice ",
+      "1\/2 oz lemon juice ",
+      "1\/2 oz Simple syrup"
+    ],
+    "servingType" : "chilled",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "rosemary sprig"
+  },
+  {
+    "id" : "0579121C-2E4E-4539-A2C7-569BBD825AB5",
+    "caption" : "A Bobby Burns cocktail",
+    "isFlaming" : false,
+    "url" : "Bobby_Burns_(drink)",
+    "drinkWare" : "cocktail",
+    "source" : "cocktaildb",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+"whiskey", "vermouth"
+    ],
+    "isIBA" : false,
+    "image" : "Bobby Burns cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 4.5 cl Scotch whisky ",
+      " 4.5 cl red vermouth ",
+      " 3 dashes Bénédictine ",
+      " Lemon peel"
+    ],
+    "preparationInstructions" : "Put all liquid ingredients in cocktail shaker filled with ice. Squeeze lemon peel on top. Stir, strain into glass.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Bobby Burns"
+  },
+  {
+    "id" : "91C7F0FC-EE27-41D2-A912-298ECF9FA21C",
+    "name" : "Old fashioned",
+    "isFlaming" : false,
+    "url" : "Old_fashioned_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Place sugar cube in old fashioned glass and saturate with bitters, add a few dashes of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange slice or zest, and a cocktail cherry.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : true,
+    "image" : "Whiskey Old Fashioned1.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "4.5 cl Bourbon whiskey or Bourbon or Rye whiskey ",
+      "Few Dash (cooking) or dashes Angostura bitters ",
+      "1 sugar cube ",
+      "Few dashes plain water"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange slice or Zest and cocktail cherry"
+  },
+  {
+    "id" : "C9A25884-9B94-4237-85CA-2C9053EE600A",
+    "isFlaming" : false,
+    "url" : "7_and_7",
+    "drinkWare" : "collins",
+    "preparationInstructions" : "Pour whiskey into Collins glass filled with ice.  Fill to desired level with 7 Up. Stir lightly.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "image" : "7 and 7, Macaroni Grill, Dunwoody GA.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 1 shot glass or shot Seagram's Seven Crown whiskey ",
+      " 6 fl oz 7 Up ",
+      " Ice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Seven and Seven"
+  },
+  {
+    "id" : "B7BBADC0-DB4B-4E32-B648-46D7E9221F98",
+    "name" : "Black Nail",
+    "caption" : "Black Nail",
+    "isFlaming" : false,
+    "url" : "Black_Nail",
+    "drinkWare" : "old",
+    "type" : "mixed",
+    "preparationInstructions" : "Fill a rocks glass with ice cubes and then add the Irish whiskey and then Irish Mist. Stir gently.",
+    "primaryAlcohol" : [
+"whiskey", "whisky"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 2.5 cl Irish Whisky  ",
+      "2.5 cl Irish Mist"
+    ],
+    "servingType" : "rocks",
+    "notes" : "Traditionally a Black Nail uses blood red oranges for the fruit.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "orange zest"
+  },
+  {
+    "id" : "AC00DA1A-BBC2-4B96-B633-12EB2EA7C691",
+    "name" : "Sea Breeze",
+    "caption" : "Sea Breeze",
+    "isFlaming" : false,
+    "url" : "Sea_Breeze_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : true,
+    "image" : "Cocktail_with_vodka.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "4 cl Vodka ",
+      "12 cl Cranberry juice ",
+      "3 cl Grapefruit juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or lime slice"
+  },
+  {
+    "id" : "C34CFDFD-6E66-4F18-8226-1ED287E314B4",
+    "name" : "Manhattan",
+    "caption" : "A classic 2:1 Manhattan, made with a whisky, sweet vermouth, bitters and a cherry",
+    "isFlaming" : false,
+    "url" : "Manhattan_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stirred over ice, strained into a chilled glass, garnished, and served up.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : true,
+    "image" : "Manhattan_Cocktail2.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 5 cl Rye whiskey ",
+      " 2 cl Sweet red vermouth ",
+      " Dash Angostura bitters"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Maraschino cherry"
+  },
+  {
+    "id" : "98471C86-C528-4AE7-B99E-3C93C1DD638E",
+    "isFlaming" : false,
+    "url" : "Colombia_(cocktail)",
+    "drinkWare" : "highball",
+    "preparationInstructions" : "Shake the vodka and citrus juices in a mixer, then strain into the glass. Slide the grenadine down one side of the glass, where it will sink to the bottom. Slide the Curaçao down the other side, to lie between the vodka and grenadine, and serve before the layers have a chance to mix.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "vodka", "curaçao"
+    ],
+    "isIBA" : false,
+    "image" : "Columbia-cocktail.jpg",
+    "servingType" : "neat",
+    "ingredients" : [
+      "2 parts vodka or brandy",
+      "1 part blue Curaçao",
+      "1 part grenadine",
+      "1 part lemon juice",
+      "6 parts orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Colombia"
+  },
+  {
+    "id" : "9DD459C5-D030-4F12-91EC-7FC20B8F8685",
+    "name" : "Gimlet",
+    "caption" : "A vodka gimlet with mint",
+    "isFlaming" : false,
+    "url" : "Gimlet_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix and serve. Garnish with a slice of lime",
+    "primaryAlcohol" : [
+      "gin",
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Gimlet cocktail.jpg",
+    "servingType" : "straightrocks",
+    "ingredients" : [
+      " 2 to 4 parts gin ",
+      " 1 part sweetened Lime or lime juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime"
+  },
+  {
+    "id" : "B82836EE-DD49-40B5-8E8C-77F6550933DB",
+    "name" : "Vesper",
+    "caption" : "Vesper",
+    "isFlaming" : false,
+    "url" : "Vesper_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake and strain into a chilled cocktail glass. Add the garnish.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "Gordon's Vesper.jpeg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "4.5 cl gin ",
+      " 1.5 cl vodka ",
+      " 0.75 cl Lillet or Lillet Blanc"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lemon twist"
+  },
+  {
+    "id" : "19E2945A-1224-43DB-B01E-47406660306A",
+    "name" : "Cosmopolitan",
+    "caption" : "A cosmopolitan garnished with a lemon twist",
+    "isFlaming" : false,
+    "url" : "Cosmopolitan_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients in cocktail shaker filled with ice. Strain into a large cocktail glass. Garnish with lime slice.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Cosmopolitan (5076906532).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 4 cl Vodka Citron ",
+      " 1.5 cl Cointreau ",
+      " 1.5 cl Fresh lime juice ",
+      " 3 cl Cranberry juice"
+    ],
+    "notes" : "The drink should be a frothy bright pink color",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "lime slice"
+  },
+  {
+    "id" : "5FD34629-61AC-46DD-A7FA-045251C16925",
+    "isFlaming" : false,
+    "url" : "Farnell_(cocktail)",
+    "drinkWare" : "collins",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour Jack Daniel's into Collins glass filled with ice.  Fill to desired level with lemonade.  Stir lightly and garnish with lime and mint.",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1 part Jack Daniel's Tennessee Whiskey ",
+      "3 parts lemonade ",
+      "Ice ",
+      " 1 slice of lime ",
+      " 1 sprig of fresh mint"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Farnell"
+  },
+  {
+    "id" : "60308729-856F-457B-B48B-90CBD818B6C7",
+    "name" : "Cape Codder",
+    "caption" : "Cape Codder",
+    "isFlaming" : false,
+    "url" : "Cape_Codder_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Build all ingredients in a highball glass filled with ice and stir briefly to combine. Garnish with lime wedge.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Cape Codder, Tommy Doyles Irish Pub, Hyannis MA.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "1.5 fl oz Vodka ",
+      " Cranberry juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or lime slice"
+  },
+  {
+    "id" : "A0D2F4E5-8DF8-4475-98F9-70B3AD66F5FC",
+    "name" : "Screwdriver",
+    "caption" : "Screwdriver",
+    "isFlaming" : false,
+    "url" : "Screwdriver_(cocktail)",
+    "drinkWare" : "highball",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix in a highball glass with ice. Garnish and serve.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Screwdriver, Birmingham-Shuttlesworth International Airport, Birmingham AL.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "5 cl (1 part) vodka ",
+      "10 cl (2 parts) orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or orange slice"
+  },
+  {
+    "id" : "640110C0-528A-40FF-AED3-284743B9421C",
+    "name" : "Harvey Wallbanger",
+    "isFlaming" : false,
+    "url" : "Harvey_Wallbanger",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top.  Garnish and serve.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Harvey_Wallbanger.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) Vodka ",
+      " 1.5 cl (1 part) Galliano (liqueur) or Galliano ",
+      " 9 cl (6 parts) fresh orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or orange slice and maraschino cherry"
+  },
+  {
+    "id" : "520B9EA3-35C8-466A-81B3-D960D65A8949",
+    "isFlaming" : false,
+    "url" : "Yorsh",
+    "drinkWare" : "pint",
+    "type" : "cocktail",
+    "preparationInstructions" : "Mix thoroughly and drink quickly.",
+    "primaryAlcohol" : [
+      "vodka",
+      "beer"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "10 parts beer ",
+      " 1 part vodka (Ratio varies according to taste.)"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Yorsh"
+  },
+  {
+    "id" : "4099644B-79A0-4D93-9341-877B9D2AF9FC",
+    "name" : "Lynchburg Lemonade",
+    "caption" : "Lynchburg Lemonade",
+    "isFlaming" : false,
+    "url" : "Lynchburg_Lemonade",
+    "drinkWare" : "collins",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake first 3 ingredients with ice and strain into ice-filled glass. Top with the lemonade or lemon-lime. Add ice and stir. Garnish with lemon slices and cherries.",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "image" : "Lynchburg Lemonade, Grindhouse Killer Burgers, Atlanta GA.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 1.25 oz Jack Daniel's Whiskey",
+      " 3\/4 oz triple sec ",
+      " 2 oz sour mix ",
+      "lemon-lime"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon wedge, maraschino cherry"
+  },
+  {
+    "id" : "47836221-C334-4640-B8BA-B244004F50D6",
+    "name" : "Fizzy Apple Cocktail",
+    "isFlaming" : false,
+    "url" : "Fizzy_apple_cocktail",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Combine all three ingredients into a chilled glass and serve with ice and garnish.",
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "isIBA" : false,
+    "image" : "Cup02.jpg",
+    "servingType" : "chilled",
+    "ingredients" : [
+      "1 shot Apple Vodka ",
+      "1\/2 cup Apple Juice ",
+      "1\/2 cup Lemonade"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "apple slice; lemon"
+  },
+  {
+    "id" : "EFE6D161-C315-4BDA-8C44-641F601AAC08",
+    "isFlaming" : false,
+    "url" : "Orange_Tundra",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "add vodka, cream soda, coffee liqueur then orange juice to a highball class",
+    "notes" : "serve without stirring",
+    "isIBA" : false,
+    "primaryAlcohol" : [
+      "vodka"
+    ],
+    "servingType" : "straight",
+    "ingredients" : [
+      "25 ml vodka",
+      "25 ml Kahlúa coffee liqueur",
+      "25 ml Creme Soda",
+      "25 ml orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Orange Tundra"
+  },
+  {
+    "id" : "9D9FC305-C992-4666-AA25-B947A1CE4E00",
+    "isFlaming" : false,
+    "url" : "Jack_and_Coke",
+    "drinkWare" : "collins",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour Jack Daniel's whiskey into a Collins glass filled with ice. Fill to desired level with Coca-Cola. Stir lightly.",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1 part Jack Daniel's whiskey ",
+      "3-5 parts Coca-Cola ",
+      "Ice"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Jack and Coke"
+  },
+  {
+    "id" : "BB5FFF3C-ED03-4A23-B6A7-3EB6410A8736",
+    "name" : "Vieux Carré",
+    "caption" : "Vieux Carré",
+    "isFlaming" : false,
+    "url" : "Vieux_Carr%C3%A9_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "vermouth",
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "File:Vieux Carre Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl rye whiskey ",
+      " 3 cl cognac ",
+      " 3 cl sweet Vermouth ",
+      " 1 barspoon Bénédictine ",
+      " 2 dashes Peychaud's bitters"
+    ],
+    "preparationInstructions" : "Pour all ingredients into a mixing glass with ice cubes. Stir well. Strain into chilled cocktail glass. Garnish with orange zest and a maraschino cherry.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or Orange zest and maraschino cherry"
+  },
+  {
+    "id" : "4629EA61-A7BF-4567-9A2F-301E1611EB8C",
+    "isFlaming" : false,
+    "url" : "Quick_Fuck",
+    "drinkWare" : "shot",
+    "type" : "layered",
+    "preparationInstructions" : "Pour Kahlua into shot glass. Layer Midori on top. Carefully add Baileys, letting it float on top to finish.",
+    "primaryAlcohol" : [
+"melon liqueur", "coffee liqueur", "cream liqueur"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "1 part Midori liqueur melon liqueur",
+      "1 part Kahlua coffee liqueur",
+      "1 part Baileys Irish Cream, cream liqueur"
+    ],
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Quick Fuck"
+  },
+  {
+    "id" : "3AAD614C-8B42-4373-A167-6982ABA38FA1",
+    "isFlaming" : false,
+    "url" : "Springbokkie",
+    "drinkWare" : "shot",
+    "preparationInstructions" : "The Crème de menthe is poured into the shot glass and the Amarula is carefully layered on top.",
+    "type" : "layered",
+    "primaryAlcohol" : [
+"mint liqueur"
+    ],
+    "isIBA" : false,
+    "image" : "Amarula_Springbokkie_shooter.jpg",
+    "servingType" : "neat",
+    "ingredients" : [
+      " 1cl (1 part) Amarula liqueur",
+      " 3cl (3 parts) Crème de menthe, mint liqueur"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Springbokkie"
+  },
+  {
+    "id" : "0274A0E4-4DC9-4B0C-99F9-3E753FE0CA22",
+    "name" : "Orgasm",
+    "isFlaming" : false,
+    "url" : "Orgasm_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Build all ingredients over ice in an old fashioned glass or shot glass.",
+    "primaryAlcohol" : [
+
+    ],
+    "isIBA" : false,
+    "image" : "Orgasm (cocktail).jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 3 cl Cointreau, orange liqueur ",
+      " 3 cl Irish Cream, cream liqueur ",
+      " 2 cl Grand Marnier liqueur",
+      " 1 Maraschino cherry"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "cherry"
+  },
+  {
+    "id" : "1FF60E0B-F690-49E2-A2A6-EA7C76E1DE85",
+    "caption" : "An Irish Car Bomb with [[Baileys Irish Cream]].",
+    "isFlaming" : false,
+    "url" : "Irish_Car_Bomb",
+    "drinkWare" : "pubshot",
+    "type" : "beer",
+    "preparationInstructions" : "The whiskey is floated on top of the Irish cream in a shot glass, and the shot glass is then dropped into the stout",
+    "primaryAlcohol" : [
+"whiskey", "stout"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "Guinness or Guinness stout",
+      "1 shot of Baileys Irish Cream",
+      "Jameson Irish Whiskey"
+    ],
+    "image" : "Irish_Car_Bomb.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Irish Car Bomb"
+  },
+  {
+    "id" : "67F0B859-5699-4E5A-973C-9F380D95B4EC",
+    "isFlaming" : false,
+    "url" : "Grasshopper_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+
+    ],
+    "isIBA" : true,
+    "image" : "Grasshopper cocktail.jpg",
+    "servingType" : "unspecified",
+    "ingredients" : [
+      "3 cl crème de menthe (green) mint liqueur",
+      "3 cl crème de cacao (white), chocolate liqueur ",
+      "3 cl cream"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Grasshopper"
+  },
+  {
+    "id" : "2C7B4C88-C52B-4686-B0CB-F4C221DFDEF4",
+    "caption" : "A porrón with kalimotxo and the used bottle of 1983 vintage wine.",
+    "isFlaming" : false,
+    "url" : "Kalimotxo",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "Stir together over plenty of ice.",
+    "primaryAlcohol" : [
+"red wine"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 1 part red wine ",
+      " 1 part cola or another carbonated soft drink"
+    ],
+    "image" : "Porrón 1.jpg",
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Kalimotxo"
+  },
+  {
+    "id" : "BCC0D984-A6B5-4F34-8DCD-1A0EFB679FC4",
+    "name" : "Mimosa",
+    "caption" : "Two Mimosas",
+    "isFlaming" : false,
+    "url" : "Mimosa_(cocktail)",
+    "drinkWare" : "flute",
+    "type" : "wine",
+    "preparationInstructions" : "Ensure both ingredients are well chilled, then mix into the glass. Serve cold.",
+    "primaryAlcohol" : [
+      "champagne"
+    ],
+    "isIBA" : true,
+    "image" : "Pool-side Mimosas at The Standard Hotel.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "7.5 cl Champagne (wine) or champagne ",
+      " 7.5 cl orange juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange twist"
+  },
+  {
+    "id" : "8C06C22E-ED16-4FC1-AE84-82B9229EEBE3",
+    "isFlaming" : false,
+    "url" : "Kir_Royal",
+    "drinkWare" : "flute",
+    "preparationInstructions" : "Add the crème de cassis to the bottom of the glass, then top up champagne.",
+    "type" : "wine",
+    "primaryAlcohol" : [
+      "champagne"
+    ],
+    "isIBA" : false,
+    "image" : "Kir Royal.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "9 cl (3 ounces) (9 parts) champagne ",
+      "1 cl (0.33 ounce) (1 part) crème de cassis, blackcurrant liqueur"
+    ],
+    "notes" : "A recipe can be found at the International Bartenders Association website.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Kir royal"
+  },
+  {
+    "id" : "4E0BAB6A-E13E-4016-BF5C-91F6838EC221",
+    "caption" : "Bellini Cipriani",
+    "isFlaming" : false,
+    "url" : "Bellini_(cocktail)",
+    "drinkWare" : "flute",
+    "type" : "wine",
+    "preparationInstructions" : "Pour peach purée into chilled glass, add sparkling wine. Stir gently.",
+    "primaryAlcohol" : [
+"sparkling wine"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 10 cl (2 parts) Prosecco ",
+      " 5 cl (1 part) fresh peach purée"
+    ],
+    "image" : "Bellini Cipriani, Macaroni Grill, Dunwoody GA.jpg",
+    "servingType" : "straight",
+    "notes" : "Traditionally a Bellini uses white peaches for the fruit.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Bellini"
+  },
+  {
+    "id" : "8BED4B84-8CB2-43E8-898C-56556CC45D23",
+    "isFlaming" : false,
+    "url" : "Kir_(cocktail)",
+    "drinkWare" : "unspecified",
+    "preparationInstructions" : "Add the crème de cassis to the bottom of the glass, then top up with wine.",
+    "type" : "wine",
+    "primaryAlcohol" : [
+"wine"
+    ],
+    "isIBA" : true,
+    "image" : "Kir cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "9 cl (9 parts) white wine ",
+      "1 cl (1 part) crème de cassis"
+    ],
+    "notes" : "A recipe can be found at the [[International Bartenders Association]] website.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Kir"
+  },
+  {
+    "id" : "BF043695-FAFE-402D-B6DF-DD76EACBCF42",
+    "name" : "Whiskey Sour",
+    "caption" : "A whiskey sour with ice cubes and a lemon slice",
+    "isFlaming" : false,
+    "url" : "Whiskey_sour",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake with ice. Strain into chilled glass, garnish and serve.",
+    "primaryAlcohol" : [
+      "whiskey"
+    ],
+    "isIBA" : true,
+    "image" : "Whiskey Sour.jpg",
+    "servingType" : "straightrocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) bourbon whiskey ",
+      " 3 cl (2 parts) fresh lemon juice ",
+      " 1.5 cl (1 part) simple syrup"
+    ],
+    "notes" : "If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Maraschino cherry and half orange slice"
+  },
+  {
+    "id" : "BB338573-4A1F-4680-A0C6-A5ED2BE25DB8",
+    "isFlaming" : false,
+    "url" : "Agua_de_Sevilla",
+    "drinkWare" : "flute",
+    "type" : "wine",
+    "preparationInstructions" : "Half of pineapple juice and half of cava, plus a splash of whiskey, plus a splash of cognac or triple sec. Stir everything well and then add a lot of whipped cream. Serve it in a pitcher with lots of ice and drink it in champagne glasses.",
+    "primaryAlcohol" : [
+"whiskey", "wine", "cognac"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 1 liter pineapple juice ",
+      " 1 bottle, 0.75 liter of Cava (Spanish wine) ",
+      " 1 cup whiskey ",
+      " 1 cup cognac or cointreau (triple sec)",
+      "ice",
+      "whipped cream"
+    ],
+    "servingType" : "blendedWIce",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Agua de Sevilla"
+  },
+  {
+    "id" : "7E29B9A1-8480-4D94-9121-2307701F4E09",
+    "name" : "Up to Date",
+    "isFlaming" : false,
+    "url" : "Up_to_Date_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "mixed",
+    "preparationInstructions" : "Add sherry, rye whiskey, mariner, and bitters to a mixing glass with ice. Stir until chilled. Strain into a chilled glass, garnish with a lemon twist.",
+    "primaryAlcohol" : [
+"sherry", "whiskey"
+    ],
+    "isIBA" : false,
+    "image" : "Up to Date cocktail (unedited).jpg",
+    "servingType" : "chilled",
+    "ingredients" : [
+      "1.25 oz dry sherry ",
+      "1.25 oz rye whiskey ",
+      "0.25 oz Grand Marnier ",
+      "2 dashes Angostura bitters"
+    ],
+    "notes" : "For a sweeter cocktail, substitute dry sherry with sweet sherry and rye whiskey with bourbon",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon twist"
+  },
+  {
+    "id" : "D696A3E1-F696-43DF-BC04-87AE7130BED2",
+    "isFlaming" : false,
+    "url" : "Baby_Guinness",
+    "drinkWare" : "shot",
+    "preparationInstructions" : "Float Irish cream on top of coffee liqueur",
+    "type" : "mixed",
+    "primaryAlcohol" : [
+"coffee liqueur"
+    ],
+    "isIBA" : false,
+    "image" : "File:Baby Guinness.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+        "3 parts coffee liqueur", " 1 part Irish cream"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Baby Guinness",
+    "notes": "Variation substitutes black Sambuca for coffee liqueur"
+  },
+  {
+    "id" : "9D53A99F-E794-4FB1-8AFB-B473D55C3621",
+    "name" : "B-52",
+    "isFlaming" : false,
+    "url" : "B-52_(cocktail)",
+    "drinkWare" : "shot",
+    "type" : "layered",
+    "preparationInstructions" : "Layer ingredients into a shot glass.  Serve with a stirrer.",
+    "primaryAlcohol" : [
+"coffee liqueur","cream liqueur", "orange liqueur"
+    ],
+    "isIBA" : false,
+    "image" : "Cocktail B52.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "2 cl Kahlúa coffee liqueur",
+      "2 cl Baileys Irish Cream cream liqueur",
+      "2 cl Grand Marnier orange liqueur"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Stirrer"
+  },
+  {
+    "id" : "B2293E63-1CA1-4F6E-9539-811D7002EF23",
+    "name" : "Hugo",
+    "isFlaming" : false,
+    "url" : "Hugo_(cocktail)",
+    "drinkWare" : "wine",
+    "type" : "wine",
+    "preparationInstructions" : "Stir together over plenty of ice.",
+    "primaryAlcohol" : [
+"sparkling wine"
+    ],
+    "isIBA" : false,
+    "image" : "15-09-26-RalfR-WLC-0059.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      "15 cl prosecco ",
+      "2 cl elderflower or lemon balm syrup ",
+      " seltzer or sparkling water"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "mint leaves"
+  },
+  {
+    "id" : "47A4DD0E-48EA-410A-8896-341569EF7F9C",
+    "name" : "Toronto",
+    "caption" : "Toronto cocktail served on the rocks",
+    "isFlaming" : false,
+    "url" : "Toronto_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "cocktaildb",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "image" : "The Toronto Cocktail (13570423424).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "2 oz Canadian whisky ",
+      "0.25 oz Fernet-Branca",
+      "0.25 tsp sugar",
+      "1 dash angostura bitters",
+      "0.25 oz chilled water or wet ice"
+    ],
+    "preparationInstructions" : "Stir all ingredients with ice and strain into chilled glass.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "orange (fruit) or orange slice"
+  },
+   {
+     "id" : "A5757D02-C23D-48F9-938D-7D1191BB5212",
+     "name" : "Americano",
+     "isFlaming" : false,
+     "url" : "Americano_(cocktail)",
+     "drinkWare" : "old",
+     "type" : "mixed",
+     "preparationInstructions" : "Pour the Campari and vermouth over ice into an old fashioned glass, add a splash of soda water and garnish with half orange slice and a lemon twist.",
+     "primaryAlcohol" : [
+       "vermouth",
+       "campari"
+     ],
+     "isIBA" : true,
+     "image" : "Americano cocktail at Nightwood Restaurant.jpg",
+     "servingType" : "rocks",
+     "ingredients" : [
+       " 3 cl Campari ",
+       " 3 cl red vermouth ",
+       " A splash of soda water"
+     ],
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "garnish" : "half an orange slice, lemon twist"
+   },
+   {
+     "id" : "6759B73F-9B07-40D3-B036-31977DD2CB06",
+     "name" : "Japanese Slipper",
+     "isFlaming" : false,
+     "url" : "Japanese_slipper",
+     "drinkWare" : "cocktail",
+     "type" : "cocktail",
+     "preparationInstructions" : "Shake together in a cocktail shaker or mixer with ice.  Strain into glass, garnish and serve.",
+     "primaryAlcohol" : [
+
+     ],
+     "isIBA" : false,
+     "image" : "Japanese slipper.jpg",
+     "servingType" : "straight",
+     "ingredients" : [
+       "3 cl (1 part) Midori liqueur, melon liqueur  ",
+       "3 cl (1 part) cointreau, triple sec ",
+       "3 cl (1 part) lemon juice"
+     ],
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "garnish" : "Honeydew melon slice"
+   },
+   {
+     "id" : "AB5714AC-F62D-4C3F-8D0D-6D6E0EFDE8AF",
+     "caption" : "A shot of Jägermeister dropped into a glass of Red Bull, creating a Jägerbomb",
+     "isFlaming" : false,
+     "url" : "J%C3%A4gerbomb",
+     "drinkWare" : "pubshot",
+     "preparationInstructions" : "The shot glass of Jägermeister is dropped into the Red Bull by the bartender or the customer",
+     "type" : "mixed",
+     "primaryAlcohol" : [
+"Jägermeister"
+     ],
+     "isIBA" : false,
+     "image" : "Jagerbomb.jpg",
+     "servingType" : "straight",
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "ingredients" : [
+         "1 can of Red Bull",
+         "1 shot of Jägermeister"
+     ],
+     "name" : "Jägerbomb"
+   },
+   {
+     "id" : "E0D387B9-3827-4BF5-9529-8526BF918EFF",
+     "isFlaming" : false,
+     "url" : "Alabama_Slammer",
+     "drinkWare" : "collins",
+     "preparationInstructions" : "Pour into highball glass over rocks. Stir.",
+     "type" : "cocktail",
+     "primaryAlcohol" : [
+"gin", "amaretto"
+     ],
+     "isIBA" : false,
+     "image" : "File:Alabama Slammer 02.jpg",
+     "servingType" : "rocks",
+     "ingredients" : [
+       " 0.5 oz. Amaretto almond liqueur",
+       " 0.5 oz. Southern Comfort liqueur",
+       " 0.5 oz. Sloe Gin ",
+       " 0.5 oz orange juice"
+     ],
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "name" : "Alabama Slammer"
+   },
+   {
+     "id" : "4381CE31-058B-4813-86D8-42C6688748AB",
+     "isFlaming" : false,
+     "url" : "Karsk",
+     "drinkWare" : "cup",
+     "type" : "cocktail",
+     "preparationInstructions" : "Heat the coffee; do not boil. Pour into cup and add the alcohol; serve hot.",
+     "primaryAlcohol" : [
+       "vodka"
+     ],
+     "isIBA" : false,
+     "ingredients" : [
+       "6cl (3 parts) vodka ",
+       "6cl (3 parts) Hot coffee"
+     ],
+     "servingType" : "hot",
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "name" : "Karsk"
+   },
+   {
+     "id" : "227C69E2-20B7-4B70-ACAA-B2419FCD2A83",
+     "isFlaming" : false,
+     "url" : "Redheaded_slut",
+     "drinkWare" : "old",
+     "source" : "The Webtender",
+     "type" : "mixed",
+     "primaryAlcohol" : [
+
+     ],
+     "isIBA" : false,
+     "ingredients" : [
+       "5 cl (one part) Jägermeister ",
+       "5 cl (one part) peach schnapps ",
+       "cranberry juice"
+     ],
+     "servingType" : "rocks",
+     "preparationInstructions" : "Combine Jägermeister and schnapps in glass full of ice.  Add cranberry juice to fill to top.  Stir as necessary.",
+     "notes" : "may also be served as a shooter - chilled and shaken, without ice",
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "name" : "Redheaded slut"
+   },
+   {
+     "id" : "D085E1CB-DCF5-4881-9D3D-1BA8B315FD41",
+     "isFlaming" : false,
+     "url" : "Golden_dream_(cocktail)",
+     "drinkWare" : "cocktail",
+     "preparationInstructions" : "Shake with cracked ice.  Strain into glass and serve.",
+     "type" : "cocktail",
+     "primaryAlcohol" : [
+
+     ],
+     "isIBA" : true,
+     "image" : "Godlen-Dream Mixed Drink Cocktail (2360538105).jpg",
+     "servingType" : "straight",
+     "ingredients" : [
+       "2 cl (2 parts) Galliano liqueur ",
+       " 2 cl (2 parts) Triple Sec ",
+       " 2 cl (2 parts) Fresh orange juice ",
+       " 1 cl (1 part) Fresh cream"
+     ],
+     "notes" : "Should be quite fluffy",
+     "ignoredProperties" : [
+       "sourcelink"
+     ],
+     "boxType" : "cocktail",
+     "name" : "Golden Dream"
+   }
+ ]}

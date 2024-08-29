@@ -1,0 +1,302 @@
+{"version":"cocktails",
+"cocktails" : [
+  {
+    "id" : "3E0D7373-E92F-4336-AB38-586F96BA70D7",
+    "name" : "Negroni",
+    "caption" : "A Negroni",
+    "isFlaming" : false,
+    "url" : "Negroni",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Stir into glass over ice, garnish and serve.",
+    "primaryAlcohol" : [
+      "vermouth",
+      "gin",
+      "campari"
+    ],
+    "isIBA" : true,
+    "image" : "Negroni served in Vancouver BC.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 3 cl gin ",
+      " 3 cl sweet red vermouth ",
+      " 3 cl Campari"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Orange (fruit) or Orange slice"
+  },
+  {
+    "id" : "59B15991-A398-49E3-AD38-3033A7FEFAA0",
+    "name" : "Porto Flip",
+    "isFlaming" : false,
+    "url" : "Porto_flip",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake ingredients together in a cocktail shaker or mixer with ice.  Strain into glass, garnish and serve",
+    "primaryAlcohol" : [
+      "port", "brandy"
+    ],
+    "isIBA" : true,
+    "image" : "Porto Flip.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      "1.5 cl (3 parts) brandy ",
+      "4.5 cl (9 parts) port wine or port ",
+      "1 cl (2 parts) egg yolk"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Grated nutmeg"
+  },
+  {
+    "id" : "E98D874A-D86C-4024-AC35-9C98EBE27AA2",
+    "isFlaming" : false,
+    "url" : "Cooperstown_Cocktail_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "unspecified",
+    "preparationInstructions" : "Shake with ice and strain into chilled cocktail glass, add mint.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 1 oz. Gin ",
+      " 0.5 oz. Dry vermouth ",
+      " 0.5 oz. Sweet vermouth ",
+      " Mint sprig"
+    ],
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Cooperstown Cocktail"
+  },
+  {
+    "id" : "736B50D3-6F63-4E84-9B4C-F82A0FD7DBE6",
+    "isFlaming" : false,
+    "url" : "French_Connection_(cocktail)",
+    "drinkWare" : "old",
+    "type" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
+    "primaryAlcohol" : [
+      "cognac"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      "3.5 cl Cognac (drink) or Cognac ",
+      "3.5 cl Amaretto liqueur"
+    ],
+    "servingType" : "rocks",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "French Connection"
+  },
+  {
+    "id" : "90A3CBD8-D8A1-42D8-BC0C-CC54715E0CE9",
+    "name" : "John Collins",
+    "isFlaming" : false,
+    "url" : "John_Collins_(cocktail)",
+    "drinkWare" : "old",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : true,
+    "image" : "IBA Cocktail John Collins (29221732881).jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4.5 cl (3 parts) gin ",
+      " 3 cl (2 parts) freshly squeezed lemon juice ",
+      " 1.5 cl (1 part) sugar syrup ",
+      " 6 cl (4 parts) carbonated water"
+    ],
+    "preparationInstructions" : "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lemon slice and maraschino cherry"
+  },
+  {
+    "id" : "AA339C5A-CE3C-4C3A-92D7-C8DBC6323524",
+    "name" : "Michelada",
+    "caption" : "Michelada in a salt-rimmed glass",
+    "isFlaming" : false,
+    "url" : "Michelada",
+    "drinkWare" : "pint",
+    "type" : "unspecified",
+    "preparationInstructions" : "Unspecified",
+    "primaryAlcohol" : [
+      "beer"
+    ],
+    "isIBA" : false,
+    "image" : "Michelada 2.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Lime (fruit) or Lime"
+  },
+  {
+    "id" : "9796FF9F-5865-4505-9C08-C343187D7409",
+    "isFlaming" : false,
+    "url" : "Between_the_Sheets_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "rum",
+      "cognac"
+    ],
+    "isIBA" : true,
+    "image" : "Between_The_Sheets_Cocktail.jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl white rum ",
+      " 3 cl cognac ",
+      " 3 cl triple sec ",
+      " 2 cl fresh lemon juice"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Between the Sheets"
+  },
+  {
+    "id" : "54CF58DF-2771-4AC9-8197-EFAF94B0C6A5",
+    "name" : "Horse's Neck",
+    "footNotes" : "IBA classifies this drink as a [[long drink]].",
+    "isFlaming" : false,
+    "url" : "Horse%27s_Neck",
+    "drinkWare" : "highball",
+    "type" : "mixed",
+    "preparationInstructions" : "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter.",
+    "primaryAlcohol" : [
+      "brandy"
+    ],
+    "isIBA" : true,
+    "image" : "Horse's_Neck_cocktail.jpg",
+    "servingType" : "rocks",
+    "ingredients" : [
+      " 4 cL (1 part) Brandy ",
+      " 12 cL (3 parts) Ginger ale ",
+      " 1 Dash of Angostura bitter (optional)"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "Long spiral of lemon zest (ingredient) or zest"
+  },
+  {
+    "id" : "81E29C06-BFA9-442D-9E7A-78536A93E3DA",
+    "isFlaming" : false,
+    "url" : "Angel_Face_(cocktail)",
+    "drinkWare" : "cocktail",
+    "preparationInstructions" : "Pour all ingredients into cocktail shaker filled with ice cubes. Shake and strain into a chilled cocktail glass.",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin", "brandy", "calvados"
+    ],
+    "isIBA" : true,
+    "image" : "IBA Cocktail Angel Face (28068833805).jpg",
+    "servingType" : "straight",
+    "ingredients" : [
+      " 3 cl gin ",
+      " 3 cl Apricot brandy ",
+      " 3 cl Calvados"
+    ],
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Angel Face"
+  },
+  {
+    "id" : "1091AEC2-E63B-48A4-96CC-E8D97A2A0727",
+    "name" : "Tuxedo",
+    "isFlaming" : false,
+    "url" : "Tuxedo_(cocktail)",
+    "drinkWare" : "cocktail",
+    "source" : "iba",
+    "type" : "cocktail",
+    "primaryAlcohol" : [
+      "gin", "absinthe"
+    ],
+    "isIBA" : true,
+    "ingredients" : [
+      " 3 cl gin (Old Tom) ",
+      " 3 cl dry Vermouth ",
+      " 1\/2 barspoon Maraschino ",
+      " 1\/4 barspoon Absinthe ",
+      " 3 dashes Bitters or orange bitters"
+    ],
+    "servingType" : "straight",
+    "preparationInstructions" : "Stir all ingredients with ice and strain into a cocktail glass.  Garnish with a cherry and a twist of lemon zest.",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "garnish" : "cherry, lemon zest"
+  },
+  {
+    "id" : "0CBBEFDE-5B2D-4298-81A0-589AEE378F86",
+    "isFlaming" : false,
+    "url" : "Queens_(cocktail)",
+    "drinkWare" : "cocktail",
+    "type" : "cocktail",
+    "preparationInstructions" : "Shake all ingredients in an ice-filled shaker or cocktail shaker. Strain into chilled martini or Cocktail glass or cocktail glass.",
+    "primaryAlcohol" : [
+      "gin"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      " 6 parts Gin ",
+      " 3 parts Sweet Red Vermouth ",
+      " 3 parts Dry Vermouth ",
+      " 4 parts Pineapple juice"
+    ],
+    "servingType" : "straight",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Queens"
+  },
+  {
+    "id" : "F85FC308-8CB5-4021-88F6-6A6FD5BD814E",
+    "caption" : "An Irish Car Bomb with [[Baileys Irish Cream]].",
+    "isFlaming" : false,
+    "url" : "Irish_Car_Bomb",
+    "drinkWare" : "pubshot",
+    "type" : "unspecified",
+    "preparationInstructions" : "The whiskey is floated on top of the Irish cream in a shot glass, and the shot glass is then dropped into the stout",
+    "primaryAlcohol" : [
+"whiskey"
+    ],
+    "isIBA" : false,
+    "ingredients" : [
+      "Guinness or Guinness stout, Baileys Irish Cream, and Jameson Irish Whiskey"
+    ],
+    "image" : "Irish_Car_Bomb.jpg",
+    "servingType" : "unspecified",
+    "ignoredProperties" : [
+      "sourcelink"
+    ],
+    "boxType" : "cocktail",
+    "name" : "Irish Car Bomb"
+  }
+  
+ ]
+}

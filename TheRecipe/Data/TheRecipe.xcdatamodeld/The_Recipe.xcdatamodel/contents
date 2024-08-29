@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CookingStep" representedClassName=".CookingStep" syncable="YES" codeGenerationType="category">
+        <attribute name="directions" attributeType="String" defaultValueString=""/>
+        <attribute name="order" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="time" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecipeImage" inverseName="cookingStep" inverseEntity="RecipeImage"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecipeIngredient" inverseName="cookingStep" inverseEntity="RecipeIngredient"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="cookingSteps" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="DinnerMenu" representedClassName=".DinnerMenu" syncable="YES" codeGenerationType="category">
+        <attribute name="courseNumber" optional="YES" attributeType="Integer 16" minValueString="3" maxValueString="12" defaultValueString="3" usesScalarValueType="NO"/>
+        <attribute name="descr" optional="YES" attributeType="String"/>
+        <attribute name="source" optional="YES" attributeType="String" defaultValueString=""/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="dinnerMenuItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DinnerMenuItem" inverseName="dinnerMenu" inverseEntity="DinnerMenuItem"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="dinnerMenus" inverseEntity="Tag"/>
+    </entity>
+    <entity name="DinnerMenuItem" representedClassName=".DinnerMenuItem" syncable="YES" codeGenerationType="category">
+        <attribute name="order" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="dinnerMenu" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DinnerMenu" inverseName="dinnerMenuItems" inverseEntity="DinnerMenu"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="dinnerMenuItems" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="Ingredient" representedClassName=".Ingredient" syncable="YES" codeGenerationType="category">
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <relationship name="recipes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RecipeIngredient" inverseName="ingredient" inverseEntity="RecipeIngredient"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Recipe" representedClassName=".Recipe" syncable="YES" codeGenerationType="category">
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="cookingTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastModified" attributeType="Date" defaultDateTimeInterval="678079140" usesScalarValueType="NO"/>
+        <attribute name="makes" attributeType="String" defaultValueString=""/>
+        <attribute name="preparationTime" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="3" usesScalarValueType="YES"/>
+        <attribute name="servings" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="summary" optional="YES" attributeType="String"/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <attribute name="videoUrl" optional="YES" attributeType="String"/>
+        <relationship name="cookingSteps" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CookingStep" inverseName="recipe" inverseEntity="CookingStep"/>
+        <relationship name="dinnerMenuItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DinnerMenuItem" inverseName="recipe" inverseEntity="DinnerMenuItem"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecipeImage" inverseName="recipe" inverseEntity="RecipeImage"/>
+        <relationship name="ingredients" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="RecipeIngredient" inverseName="recipe" inverseEntity="RecipeIngredient"/>
+        <relationship name="parent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="parts" inverseEntity="Recipe"/>
+        <relationship name="parts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recipe" inverseName="parent" inverseEntity="Recipe"/>
+        <relationship name="remarks" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RecipeRemarks" inverseName="recipe" inverseEntity="RecipeRemarks"/>
+        <relationship name="tags" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Tag" inverseName="recipes" inverseEntity="Tag"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="uuid"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="RecipeImage" representedClassName=".RecipeImage" syncable="YES" codeGenerationType="category">
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="licenseUrl" optional="YES" attributeType="String"/>
+        <attribute name="order" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="cookingStep" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CookingStep" inverseName="images" inverseEntity="CookingStep"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="images" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="RecipeIngredient" representedClassName=".RecipeIngredient" syncable="YES" codeGenerationType="category">
+        <attribute name="amount" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="comment" optional="YES" attributeType="String"/>
+        <attribute name="order" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String"/>
+        <relationship name="cookingStep" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CookingStep" inverseName="ingredients" inverseEntity="CookingStep"/>
+        <relationship name="ingredient" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Ingredient" inverseName="recipes" inverseEntity="Ingredient"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="ingredients" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="RecipeRemarks" representedClassName=".RecipeRemarks" syncable="YES" codeGenerationType="category">
+        <attribute name="comment" attributeType="String" defaultValueString=""/>
+        <attribute name="rating" attributeType="Integer 16" defaultValueString="3" usesScalarValueType="YES"/>
+        <relationship name="recipe" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Recipe" inverseName="remarks" inverseEntity="Recipe"/>
+    </entity>
+    <entity name="Tag" representedClassName=".Tag" syncable="YES" codeGenerationType="category">
+        <attribute name="dinnerMenusCount" optional="YES" attributeType="Integer 16" derived="YES" derivationExpression="dinnerMenus.@count" usesScalarValueType="YES"/>
+        <attribute name="isFavorite" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="recipesCount" optional="YES" attributeType="Integer 16" derived="YES" derivationExpression="recipes.@count" usesScalarValueType="YES"/>
+        <relationship name="dinnerMenus" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DinnerMenu" inverseName="tags" inverseEntity="DinnerMenu"/>
+        <relationship name="recipes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Recipe" inverseName="tags" inverseEntity="Recipe"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="name"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+</model>

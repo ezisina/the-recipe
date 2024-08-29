@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="en.lproj/Localizable.strings" source-language="en" target-language="es-419" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id=" %@ " xml:space="preserve">
+        <source> %@ </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id=" in one view for parsing next:" xml:space="preserve">
+        <source> in one view for parsing next:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@" xml:space="preserve">
+        <source>%@</source>
+        <note>0:0</note>
+      </trans-unit>
+      <trans-unit id="%@ (%lld)" xml:space="preserve">
+        <source>%@ (%lld)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d" xml:space="preserve">
+        <source>%d</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(h) h" xml:space="preserve">
+        <source>(h) h</source>
+        <note>Time string representing hours</note>
+      </trans-unit>
+      <trans-unit id="(m) min" xml:space="preserve">
+        <source>(m) min</source>
+        <note>Time string representing minutes</note>
+      </trans-unit>
+      <trans-unit id="(s) sec" xml:space="preserve">
+        <source>(s) sec</source>
+        <note>Time string representing seconds</note>
+      </trans-unit>
+      <trans-unit id="+" xml:space="preserve">
+        <source>+</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="About" xml:space="preserve">
+        <source>About</source>
+        <note>About button title</note>
+      </trans-unit>
+      <trans-unit id="Add Ingredient" xml:space="preserve">
+        <source>Add Ingredient</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add Recipe" xml:space="preserve">
+        <source>Add Recipe</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add Step Direction" xml:space="preserve">
+        <source>Add Step Direction</source>
+        <note>Hint for Add Direction Field</note>
+      </trans-unit>
+      <trans-unit id="Add detailed steps with instructions for easy following by." xml:space="preserve">
+        <source>Add detailed steps with instructions for easy following by.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add ingredients needed for your wonderful dish." xml:space="preserve">
+        <source>Add ingredients needed for your wonderful dish.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add ingredients to a shopping list" xml:space="preserve">
+        <source>Add ingredients to a shopping list</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="All " xml:space="preserve">
+        <source>All </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="All Ingredients" xml:space="preserve">
+        <source>All Ingredients</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="All Recipes" xml:space="preserve">
+        <source>All Recipes</source>
+        <note>Name of the item in the tags sidebar for All Recipes</note>
+      </trans-unit>
+      <trans-unit id="All Steps" xml:space="preserve">
+        <source>All Steps</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Amount" xml:space="preserve">
+        <source>Amount</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Application Error" xml:space="preserve">
+        <source>Application Error</source>
+        <note>Title of ApplicationFailureView</note>
+      </trans-unit>
+      <trans-unit id="Are you sure?" xml:space="preserve">
+        <source>Are you sure?</source>
+        <note>Tag deletion confirmation alert text
+Recipe deletion confirmation alert title</note>
+      </trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Dismiss button title in the cooking step editing sheet.</note>
+      </trans-unit>
+      <trans-unit id="Close" xml:space="preserve">
+        <source>Close</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Comment (optional)" xml:space="preserve">
+        <source>Comment (optional)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cook It" xml:space="preserve">
+        <source>Cook It</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cook step-by-step" xml:space="preserve">
+        <source>Cook step-by-step</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cooking time:" xml:space="preserve">
+        <source>Cooking time:</source>
+        <note>Cooking time TextEdit title</note>
+      </trans-unit>
+      <trans-unit id="Delete" xml:space="preserve">
+        <source>Delete</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete #%@?" xml:space="preserve">
+        <source>Delete #%@?</source>
+        <note>Tag deletion alert confirmation title</note>
+      </trans-unit>
+      <trans-unit id="Describe what exactly needs to be done in this preparation step. Try not to involve more than one operation per step — you can create as many steps as you need." xml:space="preserve">
+        <source>Describe what exactly needs to be done in this preparation step. Try not to involve more than one operation per step — you can create as many steps as you need.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Directions" xml:space="preserve">
+        <source>Directions</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Directions (%lld)" xml:space="preserve">
+        <source>Directions (%lld)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Double-tap for inline editing. Swipe left for more options." xml:space="preserve">
+        <source>Double-tap for inline editing. Swipe left for more options.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Edit" xml:space="preserve">
+        <source>Edit</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Edit Tags" xml:space="preserve">
+        <source>Edit Tags</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Error:" xml:space="preserve">
+        <source>Error:</source>
+        <note>Error header just above the error text in ApplicationFailureView</note>
+      </trans-unit>
+      <trans-unit id="Gallery" xml:space="preserve">
+        <source>Gallery</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Good session" xml:space="preserve">
+        <source>Good session</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Hello, Settings!" xml:space="preserve">
+        <source>Hello, Settings!</source>
+        <note>Settings screen title</note>
+      </trans-unit>
+      <trans-unit id="How good the recipe is?" xml:space="preserve">
+        <source>How good the recipe is?</source>
+        <note>Title for Edit Rating</note>
+      </trans-unit>
+      <trans-unit id="Images %lld" xml:space="preserve">
+        <source>Images %lld</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Images (%lld)" xml:space="preserve">
+        <source>Images (%lld)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ingredient" xml:space="preserve">
+        <source>Ingredient</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ingredients (%lld)" xml:space="preserve">
+        <source>Ingredients (%lld)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ingredients Involved" xml:space="preserve">
+        <source>Ingredients Involved</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Ingredients:" xml:space="preserve">
+        <source>Ingredients:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New Recipe" xml:space="preserve">
+        <source>New Recipe</source>
+        <note>New recipe default title</note>
+      </trans-unit>
+      <trans-unit id="Next step: " xml:space="preserve">
+        <source>Next step: </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Notes" xml:space="preserve">
+        <source>Notes</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Notes: " xml:space="preserve">
+        <source>Notes: </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="OK" xml:space="preserve">
+        <source>OK</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="On One page" xml:space="preserve">
+        <source>On One page</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Only set the time that is needed for this particular step. It will define the reminder timer in Cooking Mode." xml:space="preserve">
+        <source>Only set the time that is needed for this particular step. It will define the reminder timer in Cooking Mode.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Oops" xml:space="preserve">
+        <source>Oops</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Pick List" xml:space="preserve">
+        <source>Pick List</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please fill in all the required fields" xml:space="preserve">
+        <source>Please fill in all the required fields</source>
+        <note>Fill in all the required fields</note>
+      </trans-unit>
+      <trans-unit id="Please try re-installing the application." xml:space="preserve">
+        <source>Please try re-installing the application.</source>
+        <note>Text in ApplicationFailureView</note>
+      </trans-unit>
+      <trans-unit id="Preparation Time" xml:space="preserve">
+        <source>Preparation Time</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Preparation time:" xml:space="preserve">
+        <source>Preparation time:</source>
+        <note>Preparation time TextEdit title</note>
+      </trans-unit>
+      <trans-unit id="Remove" xml:space="preserve">
+        <source>Remove</source>
+        <target>Borrar</target>
+        <note>Remove button title</note>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target>Ahorrar</target>
+        <note>Dismiss button title in the cooking step editing sheet.</note>
+      </trans-unit>
+      <trans-unit id="Search Recipes" xml:space="preserve">
+        <source>Search Recipes</source>
+        <target>Buscar recetas</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Search Tags" xml:space="preserve">
+        <source>Search Tags</source>
+        <target>Buscar etiquetas</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Source:" xml:space="preserve">
+        <source>Source:</source>
+        <target>El origen</target>
+        <note>Summary TextEdit title</note>
+      </trans-unit>
+      <trans-unit id="Stop and Close" xml:space="preserve">
+        <source>Stop and Close</source>
+        <target>Parar y cerrar</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Summary:" xml:space="preserve">
+        <source>Summary:</source>
+        <target>El Resumen</target>
+        <note>Summary TextEdit title</note>
+      </trans-unit>
+      <trans-unit id="Tags" xml:space="preserve">
+        <source>Tags</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Tap **+** to add a picture." xml:space="preserve">
+        <source>Tap **+** to add a picture.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Tap to comment this Recipe." xml:space="preserve">
+        <source>Tap to comment this Recipe.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This is the full list of Tags. If it hasn't any suitable for the recipe, put any tag in search and Enter. The new tag will be added to the Tags." xml:space="preserve">
+        <source>This is the full list of Tags. If it hasn't any suitable for the recipe, put any tag in search and Enter. The new tag will be added to the Tags.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Type in the ingredient" xml:space="preserve">
+        <source>Type in the ingredient</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unfortunately the application internal data is corrupt." xml:space="preserve">
+        <source>Unfortunately the application internal data is corrupt.</source>
+        <note>Text in ApplicationFailureView</note>
+      </trans-unit>
+      <trans-unit id="Units" xml:space="preserve">
+        <source>Units</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="We apologize for the inconvenience." xml:space="preserve">
+        <source>We apologize for the inconvenience.</source>
+        <note>Text in ApplicationFailureView</note>
+      </trans-unit>
+      <trans-unit id="Yes" xml:space="preserve">
+        <source>Yes</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your recipes will no longer be tagged #%@." xml:space="preserve">
+        <source>Your recipes will no longer be tagged #%@.</source>
+        <note>Tag deletion confirmation alert text</note>
+      </trans-unit>
+      <trans-unit id="hour:" xml:space="preserve">
+        <source>hour:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="min:" xml:space="preserve">
+        <source>min:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="sec:" xml:space="preserve">
+        <source>sec:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="will use " xml:space="preserve">
+        <source>will use </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="TheRecipe/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="es-419">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>The Recipe</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>TheRecipe</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
+        <source>We use it to help you cook your recipies hands free. We do not record you or send any information outside your phone. Apple policies still apply.</source>
+        <note>Privacy - Microphone Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSSpeechRecognitionUsageDescription" xml:space="preserve">
+        <source>We use it to help you cook your recipies hands free. We do not record you or send any information outside your phone. Apple policies still apply.</source>
+        <note>Privacy - Speech Recognition Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="TheRecipe/en.lproj/LaunchScreen.strings" datatype="plaintext" source-language="en" target-language="es-419">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.3" build-num="14E222b"/>
+    </header>
+    <body>
+      <trans-unit id="GJd-Yh-RWb.text" xml:space="preserve">
+        <source>The Recipe</source>
+        <note>Class = "UILabel"; text = "The Recipe"; ObjectID = "GJd-Yh-RWb";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
