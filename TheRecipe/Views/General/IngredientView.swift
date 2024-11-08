@@ -25,7 +25,7 @@ struct IngredientView: View {
             }
             if (!(ingredient.comment ?? "").isEmpty) {
                 Text(ingredient.comment ?? "")
-                    .font(.caption)
+                    .font(.callout)
                     .italic()
             }
         }

@@ -29,10 +29,11 @@ struct RecipePreviewView: View {
     
     @State var recipeCopy : Recipe?
     
-    @State private var isPlayerIsPlaying: Bool? = nil
+    @State private var isPlayerIsPlaying: Bool = false
     
-    let testUrl:String = "https://www.youtube.com/watch?v=wiVlScPkWfc&list=RDCMUC0lG3Ihe4LGV851lODRIS5g&index=6"//"https://youtu.be/wiVlScPkWfc?si=uLh5dSyYfASxLtMf"
-    //"http://31.148.48.15:80/A1/index.m3u8?token=test"
+//    let testUrl:String = "https://www.youtube.com/watch?v=wiVlScPkWfc&list=RDCMUC0lG3Ihe4LGV851lODRIS5g&index=6"//"https://youtu.be/wiVlScPkWfc?si=uLh5dSyYfASxLtMf"
+//    //"http://31.148.48.15:80/A1/index.m3u8?token=test"
+//    let testVideoId:String = "wiVlScPkWfc"
     @State private var startedSecs : Binding<Double> = .constant(0.0)
     #if !os(macOS)
     private let pastboard = UIPasteboard.general
@@ -45,38 +46,50 @@ struct RecipePreviewView: View {
                     contentbody
                         .background(Color.clear.background(.ultraThinMaterial), alignment: .center)
                         .clipShape(
-                            
-                            // 1
                             RoundedRectangle(
                                 cornerRadius: 8
                             ))
+//                    if (videoUrl != nil && !recipe.wrappedVideoId.isEmpty) {
+//                        YouTubePlayerView(videoID: recipe.wrappedVideoId)
+//                            .frame(width: 400, height: 300)  // Set the frame size for the video
+//                                        .cornerRadius(10)    // Optional: Add a corner radius for styling
+//                                        .padding()
+//                    }
                     //FIXME: Show link on Video if VideoPlayer can't play it
-                    if videoUrl != nil && !(isPlayerIsPlaying ?? false) {
-                        Link( destination: videoUrl!) {
-                            
-                            Text("Recipe Video: \(videoUrl!.absoluteString)").underline(pattern:.dashDotDot,color: .accentColor)
-                                .contextMenu {
-                                    Button {
-                                    #if os(macOS)
-                                        NSPasteboard.general.clearContents()
-                                        NSPasteboard.general.addTypes([.string], owner: nil)
-                                        NSPasteboard.general.setString(videoUrl!.absoluteString, forType: .string)
-                                    #else
-                                        pastboard.string = videoUrl!.absoluteString
-                                    #endif
-                                    } label: {
-                                        Text("Copy")
+                    if videoUrl != nil && !(isPlayerIsPlaying) {
+                        VStack {
+                            Button(action: {isPlayerIsPlaying.toggle()}) {
+                                Label("Watch video", systemImage: "play.fill")
+                            }.buttonStyle(.borderedProminent)
+                            Text("OR in browser if something went wrong")
+                            Link( destination: videoUrl!) {
+                                
+                                Text("\(videoUrl!.absoluteString)").underline(pattern:.dashDotDot,color: .accentColor)
+                                    .contextMenu {
+                                        Button {
+#if os(macOS)
+                                            NSPasteboard.general.clearContents()
+                                            NSPasteboard.general.addTypes([.string], owner: nil)
+                                            NSPasteboard.general.setString(videoUrl!.absoluteString, forType: .string)
+#else
+                                            pastboard.string = videoUrl!.absoluteString
+#endif
+                                        } label: {
+                                            Text("Copy")
+                                        }
                                     }
-                                }
-                            
+                                
+                            }.buttonStyle(.bordered)
+                                .frame(alignment: .leading)
+                                .sectionHeaderStyle()
                         }
-                        .frame(alignment: .leading)
-                        .sectionHeaderStyle()
-                    } else if videoUrl != nil && (isPlayerIsPlaying ?? false) {
-
-                        VideoFork(url: videoUrl!, startVideoAtSeconds: startedSecs, muted: .constant(true), isReadyForDisplay: $isPlayerIsPlaying)
-                            .frame(width: 300)
-                    } else {
+                    }
+//                    else if videoUrl != nil && (isPlayerIsPlaying ?? false) {
+//
+//                        VideoFork(url: videoUrl!, startVideoAtSeconds: startedSecs, muted: .constant(true), isReadyForDisplay: $isPlayerIsPlaying)
+//                            .frame(width: 300)
+//                    }
+                    else {
                         EmptyView()
                     }
                 }
@@ -149,6 +162,27 @@ struct RecipePreviewView: View {
                     TagsEditView(provider: recipe)
                 }
             }
+            .fullScreenCover(isPresented: $isPlayerIsPlaying) {
+                ZStack(alignment: .topTrailing) {
+                    
+                    if (videoUrl != nil ) {
+                        YouTubePlayerView(videoUrl: recipe.videoUrl)
+                            .frame(maxWidth: .infinity)  // Set the frame size for the video
+                            .cornerRadius(10)    // Optional: Add a corner radius for styling
+                            .padding()
+                    }
+                    
+                    VStack {
+                        Button( "Close", systemImage: "xmark") {
+                        isPlayerIsPlaying.toggle()
+                        }
+                        .labelStyle(.iconOnly)
+                        .buttonStyle(.borderedProminent)
+                        .padding()
+                    }.padding()
+                }
+                
+            }
             .sheet(item: $recipeCopy) { copy in
                 NavigationStack {
                     RecipeView(recipe: copy)
@@ -158,12 +192,12 @@ struct RecipePreviewView: View {
             //            .onChange(of: autocompleteSelection) { newValue in
             //                print("picked tag ",newValue)
             //            }
-            .onChange(of: isPlayerIsPlaying) { isReady in
-                guard let isReady = isReady else {
-                    return
-                }
-                
-            }
+//            .onChange(of: isPlayerIsPlaying) { isReady in
+//                guard let isReady = isReady else {
+//                    return
+//                }
+//                
+//            }
         }
     }
     
@@ -193,6 +227,7 @@ struct RecipePreviewView: View {
                 } label: {
                     Text(recipe.title ?? "No title")
                         .font(.title)
+                        .underline(pattern:.dashDotDot,color: .accentColor)
                 }
                 
                 AdaptiveLayout(hAlignment: .leading, vAlignment: .top, spacing: .single(20)) {

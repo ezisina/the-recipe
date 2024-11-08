@@ -610,6 +610,9 @@ struct RecipeView: View {
         if !(recipe.wrappedTags.contains(tagRecipe)) {
             recipe.addToTags(tagRecipe)
         }
+        if (recipe.wrappedVideoUrl.isEmpty) {
+            recipe.videoUrl = ""
+        } 
         if recipe.hasChanges || recipe.hasPersistentChangedValues {
             print("Recipe saved changes")
             viewContext.saveChanges()

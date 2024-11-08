@@ -65,6 +65,7 @@
 		F32BBBFE28889C0C00CBDAC2 /* CookingStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BBBFD28889C0C00CBDAC2 /* CookingStageView.swift */; };
 		F32F23BE2A846AF2004865DE /* TagProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32F23BD2A846AF2004865DE /* TagProvider.swift */; };
 		F338C8262A33D8B900BC9BCE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338C8252A33D8B900BC9BCE /* AboutView.swift */; };
+		F33E3DD52CDD67D600EC5B78 /* YouTubePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33E3DD42CDD67D600EC5B78 /* YouTubePlayerView.swift */; };
 		F34750B42876511E001B9A90 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34750B32876511E001B9A90 /* CookingView.swift */; };
 		F34FF7972A1C28AE0098B47C /* EditInlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FF7962A1C28AE0098B47C /* EditInlineView.swift */; };
 		F34FF7992A1C328F0098B47C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FF7982A1C328F0098B47C /* Utils.swift */; };
@@ -183,6 +184,7 @@
 		F32BBBFD28889C0C00CBDAC2 /* CookingStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingStageView.swift; sourceTree = "<group>"; };
 		F32F23BD2A846AF2004865DE /* TagProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagProvider.swift; sourceTree = "<group>"; };
 		F338C8252A33D8B900BC9BCE /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F33E3DD42CDD67D600EC5B78 /* YouTubePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubePlayerView.swift; sourceTree = "<group>"; };
 		F34750B32876511E001B9A90 /* CookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
 		F34FF7962A1C28AE0098B47C /* EditInlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditInlineView.swift; sourceTree = "<group>"; };
 		F34FF7982A1C328F0098B47C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				F3747B8F296F66210077648D /* RatingViews.swift */,
 				2359DDD1287A4F2D0003FDE8 /* CookingStepView.swift */,
 				F324BD0B2AB28A9F0089140E /* AutocompletedTextField.swift */,
+				F36A01C12AD74D140014B32C /* CopyrightView.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 		23F39126286D599D0096ECC9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				F33E3DD42CDD67D600EC5B78 /* YouTubePlayerView.swift */,
 				F36A01B82ACF703D0014B32C /* JsonDocument.swift */,
 				F38019FD2A2411B500C9E0AE /* SpeachRecognizer.swift */,
 				F38019FC2A2411B500C9E0AE /* Speaker.swift */,
@@ -455,7 +459,6 @@
 				232D9E0D287F389200B8D24A /* Double+Time.swift */,
 				F39A424B2A37CB5E0017C29C /* ImportBunchRecipes.swift */,
 				F3A44EDF2A38EF1400B50C81 /* Bundle+Extension.swift */,
-				F36A01C12AD74D140014B32C /* CopyrightView.swift */,
 				F36A01C32AD8AAC20014B32C /* AdaptiveLayoutView.swift */,
 				F358C2702B12A30E009FC684 /* VideoFork.swift */,
 			);
@@ -703,6 +706,7 @@
 				2328794E287FDBF500477314 /* Ingredient.swift in Sources */,
 				F36A01C42AD8AAC20014B32C /* AdaptiveLayoutView.swift in Sources */,
 				23DE50FC2866791400EFC3EE /* Ingredient+Extensions.swift in Sources */,
+				F33E3DD52CDD67D600EC5B78 /* YouTubePlayerView.swift in Sources */,
 				F328B0762C4094B700C8B1A1 /* RecipeRemarks.swift in Sources */,
 				232D9E0E287F389200B8D24A /* Double+Time.swift in Sources */,
 				2359DDCC287A36520003FDE8 /* Ordered.swift in Sources */,

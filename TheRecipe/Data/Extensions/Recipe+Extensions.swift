@@ -146,7 +146,7 @@ extension Recipe : TagProvider {
         copy.wrappedSource = self.wrappedSource
         copy.wrappedComment = self.wrappedComment
         copy.wrappedTags = self.wrappedTags
-        
+        copy.wrappedVideoUrl = self.wrappedVideoUrl
         copy.wrappedTitle = self.wrappedTitle + " copy"
 
         

@@ -11,6 +11,7 @@ struct SidebarView: View {
     @State private var tagToRemove: TagToRemove = .init(showConfirmation: false)
     @State private var selection: AutocompleteSelection<Tag> = .none
     @FetchRequest(sortDescriptors: [//SortDescriptor(\Tag.recipeModifiedDate, order: .reverse),
+                                    SortDescriptor(\Tag.isFavorite, order: .reverse),
                                     SortDescriptor(\Tag.name, order: .forward),
                                     SortDescriptor(\Tag.recipesCount, order: .reverse),
                                    ],
@@ -108,14 +109,11 @@ struct SidebarView: View {
                     
                     ForEach(tags.filter{$0.recipesCount > 0}, id: \.self) { tag in
                         Label {
-                            Text("\(tag.wrappedName.capitalized) (\(tag.wrappedRecipes.count ))")
+                            Text("\(tag.wrappedName.capitalized) ").fontWeight(.semibold)
                         } icon: {
-                            Image(systemName: "number.square.fill")
-                                .foregroundColor(.accentColor)
-                            
-                        }
-                        //FIXME: favorite tag feature
-//                        .badge(tag.isFavorite ? "♥︎" : "♡")
+                            Image(systemName: "heart.square")
+                                .foregroundColor(tag.isFavorite ? .accentColor: .secondary)
+                        }.badge(tag.wrappedRecipes.count)
                         .tag(Selection<Tag>.one(tag))
                         .swipeActions(edge: .trailing) {
                             Button(role: .destructive, action: {tagToRemove = .init(tag: tag)}) {
@@ -128,10 +126,10 @@ struct SidebarView: View {
                                 viewContext.saveChanges()
                             } label: {
                                 if tag.isFavorite {
-                                    Label("Un-Fav", systemImage: "flag")
-                                        
+                                    Label("Un-Fav", systemImage: "heart.slash")
+                                        .foregroundColor(.accentColor)
                                 } else {
-                                    Label("Fav", systemImage: "flag.fill")
+                                    Label("Fav", systemImage: "heart.fill").foregroundColor(.accentColor)
                                         
                                 }
                                     
@@ -145,16 +143,18 @@ struct SidebarView: View {
 //                        })
                     }
                 } header: {
-                    VStack(alignment:.leading, spacing: 15) {
+                    HStack(spacing: 0) {
                         Button(Selection<Tag>.allrecipes.title, systemImage: "folder.fill"){
                             appState.selectedTag = Selection<Tag>.allrecipes
                         }
+                        .frame(maxWidth: .infinity, alignment:.leading)
                         .tag(Selection<Tag>.allrecipes)
                         
-                        Button("Add New", systemImage: "square.and.pencil")  {
-                            newRecipe()
-                        }
-                        .sectionHeaderStyle()
+//                        Button("Add New", systemImage: "plus.rectangle.on.folder")  {
+//                            newRecipe()
+//                        }
+//                        .labelStyle(.iconOnly)
+//                        .sectionHeaderStyle()
                     }
                     .labelStyle(.titleAndIcon)
                     .buttonStyle(.borderless)

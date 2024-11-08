@@ -14,6 +14,7 @@ struct RecipeListView: View {
     @State private var selectionForDelete: Recipe?
     @State private var searchQuery = ""
     @State private var showDeleteConfirmation = false
+    @FocusState private var focusedColumn: FocusedColumn?
 
     @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject private var appState:AppState
@@ -31,7 +32,9 @@ struct RecipeListView: View {
         _predicate = predicate
         
         _recipes = FetchRequest<Recipe>(
-            sortDescriptors: [ SortDescriptor(\Recipe.lastModified, order: .reverse) ],
+            sortDescriptors: [ SortDescriptor(\Recipe.lastModified, order: .reverse),
+                               SortDescriptor(\Recipe.rating, order: .reverse),
+                             ],
             predicate: predicate.wrappedValue,
                       animation: .default)
         
@@ -76,10 +79,13 @@ struct RecipeListView: View {
                                 showDeleteConfirmation = true
                             }
                         }
-                    
+                        
+                        .foregroundColor(focusedColumn == .recipeView && appState.selectedRecipe == recipe ? Color("SecondaryTextColor") : nil)
 //                        .scrollContentBackground(.hidden)
-                        .listRowBackground(Color.clear.background(.bar))
+//                        .listRowBackground(Color.clear.background(.bar))
+
                 }
+                
             } header: {
                 //FIXME: revert maybe later
 //                if horizontalSizeClass == .compact {
@@ -116,7 +122,7 @@ struct RecipeListView: View {
             }
             
         }
-        .scrollContentBackground(.hidden)
+//        .scrollContentBackground(.hidden)
 #if os(macOS)
             .frame(minWidth:300)
             .toolbar {
@@ -127,7 +133,7 @@ struct RecipeListView: View {
                 }
             }
 #else
-            .listStyle( .insetGrouped)
+//            .listStyle( .insetGrouped)
             .toolbar {
                 ToolbarItem {
                     Button(action: newRecipe) {
@@ -149,6 +155,7 @@ struct RecipeListView: View {
 //                    showDeleteConfirmation = true
 //                }
 //            }
+            .focused($focusedColumn, equals: .recipeView)
             .alert(Text("Are you sure?", comment: "Recipe deletion confirmation alert title"), isPresented: $showDeleteConfirmation) {
                 Button("Delete", role: .destructive, action: deleteSelectedRecipe)
             }
@@ -212,7 +219,7 @@ struct RecipeListView: View {
             if (!recipe.wrappedSummary.isEmpty) {
                 Text("\(recipe.wrappedSummary )")
                     .font(.subheadline)
-                    .lineLimit(2, reservesSpace: true)
+                    .lineLimit(2, reservesSpace: false)
                     .fixedSize(horizontal: false, vertical: true)
             }
             TagsListView(provider: recipe)
@@ -230,4 +237,9 @@ struct RecipeListView: View {
 //            
 //        }
     }
+}
+
+
+enum FocusedColumn {
+    case recipeView
 }
